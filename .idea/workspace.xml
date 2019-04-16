@@ -2,207 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="deb684e1-a4c4-4d79-996b-e60b12d23334" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Admin/AdminUserController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Admin/AdminUserController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/app.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/app.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/css/admin/css-rtl/app.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/css/admin/css-rtl/bootstrap-extended.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/css/admin/css-rtl/bootstrap.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/css/admin/css-rtl/colors.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/css/admin/css-rtl/core/colors/palette-gradient.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/css/admin/css-rtl/core/colors/palette-tooltip.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/css/admin/css-rtl/core/menu/menu-types/vertical-menu.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/css/admin/css-rtl/core/menu/menu-types/vertical-overlay-menu.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/css/admin/css-rtl/custom-rtl.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/css/admin/css-rtl/pages/coming-soon.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/css/admin/css-rtl/pages/error.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/css/admin/css-rtl/pages/gallery.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/css/admin/css-rtl/pages/invoice.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/css/admin/css-rtl/pages/login-register.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/css/admin/css-rtl/pages/search.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/css/admin/css-rtl/pages/timeline.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/css/admin/css-rtl/pages/under-maintenance.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/css/admin/css-rtl/plugins/animate/animate.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/css/admin/data/jqvmaps/jquery.vmap.sampledata.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/css/admin/fonts/flag-icon-css/css/flag-icon.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/css/admin/fonts/icomoon.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/css/admin/fonts/icomoon/icomoonc994.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/css/admin/fonts/icomoon/icomoonc994.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/css/admin/fonts/icomoon/icomoonc994.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/css/admin/fonts/icomoon/icomoonc994.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/css/admin/images/backgrounds/bg-12.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/css/admin/images/backgrounds/bg-14.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/css/admin/images/backgrounds/bg-2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/css/admin/images/carousel/01.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/css/admin/images/carousel/02.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/css/admin/images/carousel/03.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/css/admin/images/carousel/04.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/css/admin/images/carousel/05.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/css/admin/images/carousel/06.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/css/admin/images/carousel/07.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/css/admin/images/carousel/08.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/css/admin/images/carousel/09.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/css/admin/images/carousel/10.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/css/admin/images/carousel/11.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/css/admin/images/carousel/14.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/css/admin/images/carousel/15.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/css/admin/images/gallery/1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/css/admin/images/gallery/10.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/css/admin/images/gallery/11.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/css/admin/images/gallery/12.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/css/admin/images/gallery/13.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/css/admin/images/gallery/14.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/css/admin/images/gallery/15.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/css/admin/images/gallery/16.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/css/admin/images/gallery/2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/css/admin/images/gallery/23.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/css/admin/images/gallery/25.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/css/admin/images/gallery/3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/css/admin/images/gallery/4.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/css/admin/images/gallery/5.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/css/admin/images/gallery/6.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/css/admin/images/gallery/7.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/css/admin/images/gallery/8.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/css/admin/images/gallery/9.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/css/admin/images/ico/apple-icon-120.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/css/admin/images/ico/apple-icon-152.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/css/admin/images/ico/apple-icon-60.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/css/admin/images/ico/apple-icon-76.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/css/admin/images/ico/favicon-32.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/css/admin/images/jvqmap/marker/blue.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/css/admin/images/jvqmap/marker/purple.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/css/admin/images/jvqmap/marker/red.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/css/admin/images/logo/robust-80x80.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/css/admin/images/logo/robust-logo-dark-big.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/css/admin/images/logo/robust-logo-dark.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/css/admin/images/logo/robust-logo-light-big.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/css/admin/images/logo/robust-logo-light.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/css/admin/images/pages/signature-scan.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/css/admin/images/portfolio/width-1200/portfolio-1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/css/admin/images/portfolio/width-600/portfolio-14.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/css/admin/images/portfolio/width-600/portfolio-3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/css/admin/images/portrait/small/avatar-s-1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/css/admin/images/portrait/small/avatar-s-10.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/css/admin/images/portrait/small/avatar-s-11.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/css/admin/images/portrait/small/avatar-s-12.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/css/admin/images/portrait/small/avatar-s-13.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/css/admin/images/portrait/small/avatar-s-15.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/css/admin/images/portrait/small/avatar-s-16.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/css/admin/images/portrait/small/avatar-s-19.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/css/admin/images/portrait/small/avatar-s-2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/css/admin/images/portrait/small/avatar-s-20.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/css/admin/images/portrait/small/avatar-s-21.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/css/admin/images/portrait/small/avatar-s-24.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/css/admin/images/portrait/small/avatar-s-25.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/css/admin/images/portrait/small/avatar-s-3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/css/admin/images/portrait/small/avatar-s-4.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/css/admin/images/portrait/small/avatar-s-5.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/css/admin/images/portrait/small/avatar-s-6.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/css/admin/images/portrait/small/avatar-s-7.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/css/admin/images/portrait/small/avatar-s-8.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/css/admin/images/portrait/small/avatar-s-9.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/css/admin/js/core/app-menu.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/css/admin/js/core/app.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/css/admin/js/core/libraries/bootstrap.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/css/admin/js/core/libraries/jquery.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/css/admin/js/scripts/cards/card-charts.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/css/admin/js/scripts/charts/chartjs/bar/bar-stacked.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/css/admin/js/scripts/charts/chartjs/bar/bar.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/css/admin/js/scripts/charts/chartjs/bar/column-stacked.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/css/admin/js/scripts/charts/chartjs/bar/column.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/css/admin/js/scripts/charts/chartjs/line/line-area.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/css/admin/js/scripts/charts/chartjs/line/line-stacked-area.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/css/admin/js/scripts/charts/chartjs/line/line.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/css/admin/js/scripts/charts/chartjs/pie-doughnut/doughnut-simple.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/css/admin/js/scripts/charts/chartjs/pie-doughnut/doughnut.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/css/admin/js/scripts/charts/chartjs/pie-doughnut/pie-simple.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/css/admin/js/scripts/charts/chartjs/pie-doughnut/pie.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/css/admin/js/scripts/charts/flot/bar/annotations.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/css/admin/js/scripts/charts/flot/bar/bar.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/css/admin/js/scripts/charts/flot/bar/stacked-bar.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/css/admin/js/scripts/charts/flot/line/line.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/css/admin/js/scripts/charts/flot/line/realtime.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/css/admin/js/scripts/charts/flot/line/tracking.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/css/admin/js/scripts/charts/flot/pie/donut-hole.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/css/admin/js/scripts/charts/flot/pie/interactive-pie.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/css/admin/js/scripts/charts/flot/pie/label-formatter.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/css/admin/js/scripts/charts/flot/pie/pie.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/css/admin/js/scripts/charts/gmaps/maps.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/css/admin/js/scripts/charts/google/bar/bar-intervals.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/css/admin/js/scripts/charts/google/bar/bar-stacked.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/css/admin/js/scripts/charts/google/bar/bar.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/css/admin/js/scripts/charts/google/bar/column.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/css/admin/js/scripts/charts/google/bar/combo.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/css/admin/js/scripts/charts/google/bar/histogram.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/css/admin/js/scripts/charts/google/bar/stacked-column.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/css/admin/js/scripts/charts/google/line/area-interval.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/css/admin/js/scripts/charts/google/line/area-stacked-stepped.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/css/admin/js/scripts/charts/google/line/area-stacked.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/css/admin/js/scripts/charts/google/line/area-stepped.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/css/admin/js/scripts/charts/google/line/area.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/css/admin/js/scripts/charts/google/line/line-interval.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/css/admin/js/scripts/charts/google/line/line.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/css/admin/js/scripts/charts/google/pie/3d-pie-exploded.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/css/admin/js/scripts/charts/google/pie/3d-pie.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/css/admin/js/scripts/charts/google/pie/donut-exploded.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/css/admin/js/scripts/charts/google/pie/donut-rotated.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/css/admin/js/scripts/charts/google/pie/donut.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/css/admin/js/scripts/charts/google/pie/pie-diff-border.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/css/admin/js/scripts/charts/google/pie/pie-diff-invert.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/css/admin/js/scripts/charts/google/pie/pie-diff-opacity.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/css/admin/js/scripts/charts/google/pie/pie-diff-radius.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/css/admin/js/scripts/charts/google/pie/pie-exploded.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/css/admin/js/scripts/charts/google/pie/pie-rotated.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/css/admin/js/scripts/charts/google/pie/pie.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/css/admin/js/scripts/charts/jqvmap/jqvmap.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/css/admin/js/scripts/coming-soon/coming-soon.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/css/admin/js/scripts/gallery/photo-swipe/photoswipe-script.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/css/admin/js/scripts/modal/components-modal.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/css/admin/js/scripts/navs/navs.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/css/admin/js/scripts/pages/dashboard-2.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/css/admin/js/scripts/pages/dashboard-lite.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/css/admin/js/scripts/popover/popover.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/css/admin/js/scripts/tooltip/tooltip.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/css/admin/vendors/css/charts/jqvmap.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/css/admin/vendors/css/extensions/pace.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/css/admin/vendors/css/ui/prism.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/css/admin/vendors/js/charts/chart.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/css/admin/vendors/js/charts/flot/jquery.flot.categories.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/css/admin/vendors/js/charts/flot/jquery.flot.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/css/admin/vendors/js/charts/flot/jquery.flot.navigate.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/css/admin/vendors/js/charts/flot/jquery.flot.pie.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/css/admin/vendors/js/charts/flot/jquery.flot.resize.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/css/admin/vendors/js/charts/flot/jquery.flot.selection.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/css/admin/vendors/js/charts/flot/jquery.flot.stack.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/css/admin/vendors/js/charts/flot/jquery.flot.time.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/css/admin/vendors/js/charts/gmaps.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/css/admin/vendors/js/charts/jqvmap/jquery.vmap.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/css/admin/vendors/js/charts/jqvmap/maps/continents/jquery.vmap.africa.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/css/admin/vendors/js/charts/jqvmap/maps/continents/jquery.vmap.asia.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/css/admin/vendors/js/charts/jqvmap/maps/continents/jquery.vmap.australia.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/css/admin/vendors/js/charts/jqvmap/maps/continents/jquery.vmap.europe.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/css/admin/vendors/js/charts/jqvmap/maps/continents/jquery.vmap.north-america.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/css/admin/vendors/js/charts/jqvmap/maps/continents/jquery.vmap.south-america.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/css/admin/vendors/js/charts/jqvmap/maps/jquery.vmap.usa.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/css/admin/vendors/js/charts/jqvmap/maps/jquery.vmap.world.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/css/admin/vendors/js/coming-soon/jquery.countdown.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/css/admin/vendors/js/extensions/pace.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/css/admin/vendors/js/gallery/masonry/masonry.pkgd.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/css/admin/vendors/js/gallery/photo-swipe/default-skin/default-skin.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/css/admin/vendors/js/gallery/photo-swipe/default-skin/default-skin.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/css/admin/vendors/js/gallery/photo-swipe/default-skin/default-skin.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/css/admin/vendors/js/gallery/photo-swipe/default-skin/preloader.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/css/admin/vendors/js/gallery/photo-swipe/photoswipe-ui-default.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/css/admin/vendors/js/gallery/photo-swipe/photoswipe.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/css/admin/vendors/js/gallery/photo-swipe/photoswipe.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/css/admin/vendors/js/ui/blockUI.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/css/admin/vendors/js/ui/jquery.matchHeight-min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/css/admin/vendors/js/ui/perfect-scrollbar.jquery.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/css/admin/vendors/js/ui/prism.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/css/admin/vendors/js/ui/screenfull.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/css/admin/vendors/js/ui/tether.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/css/admin/vendors/js/ui/unison.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/admin/users/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/users/index.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Auth/RegisterController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Auth/RegisterController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2019_04_10_130913_create_role_user_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2019_04_10_130913_create_role_user_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/seeds/DatabaseSeeder.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/seeds/DatabaseSeeder.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -216,31 +19,51 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Admin/AdminUserController.php">
+        <entry file="file://$PROJECT_DIR$/artisan">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="18" column="49" selection-start-line="18" selection-start-column="49" selection-end-line="18" selection-end-column="49" />
-              <folding>
-                <element signature="e#46#59#0#PHP" expanded="true" />
-              </folding>
+            <state relative-caret-position="289">
+              <caret line="17" column="58" selection-start-line="17" selection-start-column="58" selection-end-line="17" selection-end-column="58" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/routes/web.php">
+        <entry file="file://$PROJECT_DIR$/database/migrations/2019_04_10_130803_create_roles_table.php">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/database/migrations/2019_04_10_130913_create_role_user_table.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="21" column="56" selection-start-line="21" selection-start-column="56" selection-end-line="21" selection-end-column="56" />
+            <state relative-caret-position="357">
+              <caret line="23" selection-start-line="23" selection-end-line="23" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/database/seeds/RolesTableSeeder.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="221">
+              <caret line="13" column="11" selection-start-line="13" selection-start-column="11" selection-end-line="13" selection-end-column="11" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/database/seeds/DatabaseSeeder.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="221">
+              <caret line="13" column="44" selection-start-line="13" selection-start-column="44" selection-end-line="13" selection-end-column="44" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/resources/views/admin/users/index.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="27" column="50" selection-start-line="27" selection-start-column="50" selection-end-line="27" selection-end-column="50" />
+            <state relative-caret-position="442">
+              <caret line="26" column="50" selection-start-line="26" selection-start-column="50" selection-end-line="26" selection-end-column="50" />
             </state>
           </provider>
         </entry>
@@ -257,7 +80,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/config/app.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="176">
+            <state relative-caret-position="3842">
               <caret line="226" column="52" selection-start-line="226" selection-start-column="52" selection-end-line="226" selection-end-column="52" />
             </state>
           </provider>
@@ -275,7 +98,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/resources/views/admin/layouts/master.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="63">
+            <state relative-caret-position="12104">
               <caret line="712" column="16" selection-start-line="712" selection-start-column="13" selection-end-line="712" selection-end-column="16" />
             </state>
           </provider>
@@ -307,6 +130,10 @@
         <option value="$PROJECT_DIR$/app/Http/Controllers/Admin/AdminUserController.php" />
         <option value="$PROJECT_DIR$/config/app.php" />
         <option value="$PROJECT_DIR$/resources/views/admin/users/index.blade.php" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/Auth/RegisterController.php" />
+        <option value="$PROJECT_DIR$/database/migrations/2019_04_10_130913_create_role_user_table.php" />
+        <option value="$PROJECT_DIR$/database/seeds/DatabaseSeeder.php" />
+        <option value="$PROJECT_DIR$/database/seeds/RolesTableSeeder.php" />
       </list>
     </option>
   </component>
@@ -415,12 +242,29 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
               <item name="journal" type="b2602c69:ProjectViewProjectNode" />
               <item name="journal" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="journal" type="b2602c69:ProjectViewProjectNode" />
+              <item name="journal" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="journal" type="b2602c69:ProjectViewProjectNode" />
+              <item name="journal" type="462c0819:PsiDirectoryNode" />
+              <item name="database" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="journal" type="b2602c69:ProjectViewProjectNode" />
+              <item name="journal" type="462c0819:PsiDirectoryNode" />
+              <item name="database" type="462c0819:PsiDirectoryNode" />
+              <item name="seeds" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="journal" type="b2602c69:ProjectViewProjectNode" />
@@ -437,7 +281,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -479,18 +322,20 @@
       <workItem from="1554990598231" duration="26000" />
       <workItem from="1555010225180" duration="1579000" />
       <workItem from="1555017567015" duration="2444000" />
-      <workItem from="1555021306297" duration="2636000" />
+      <workItem from="1555021306297" duration="3654000" />
+      <workItem from="1555165250053" duration="1997000" />
+      <workItem from="1555408354848" duration="1863000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6968000" />
+    <option name="totallyTimeSpent" value="11846000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2655068" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2730711" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="npm" order="2" side_tool="true" />
       <window_info id="Favorites" order="3" side_tool="true" />
@@ -504,7 +349,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info anchor="bottom" id="Terminal" order="10" visible="true" weight="0.32993197" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.32993197" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -524,12 +369,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/.gitattributes">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/database/migrations/2019_04_10_130803_create_roles_table.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/database/migrations/2019_04_10_130913_create_role_user_table.php">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/.env">
@@ -556,20 +395,6 @@
     <entry file="file://$PROJECT_DIR$/app/Http/Controllers/HomeController.php">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/artisan">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="1" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/routes/web.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="21" column="56" selection-start-line="21" selection-start-column="56" selection-end-line="21" selection-end-column="56" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/admin/users/edit.blade.php">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -580,13 +405,47 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/routes/web.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="21" column="56" selection-start-line="21" selection-start-column="56" selection-end-line="21" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Auth/RegisterController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="353">
+          <caret line="72" column="44" selection-start-line="72" selection-start-column="44" selection-end-line="72" selection-end-column="44" />
+          <folding>
+            <element signature="e#45#58#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Admin/AdminUserController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
+        <state relative-caret-position="272">
           <caret line="18" column="49" selection-start-line="18" selection-start-column="49" selection-end-line="18" selection-end-column="49" />
           <folding>
             <element signature="e#46#59#0#PHP" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/artisan">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="58" selection-start-line="17" selection-start-column="58" selection-end-line="17" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/migrations/2019_04_10_130803_create_roles_table.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/admin/users/index.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="26" column="50" selection-start-line="26" selection-start-column="50" selection-end-line="26" selection-end-column="50" />
         </state>
       </provider>
     </entry>
@@ -599,7 +458,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/config/app.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
+        <state relative-caret-position="3842">
           <caret line="226" column="52" selection-start-line="226" selection-start-column="52" selection-end-line="226" selection-end-column="52" />
         </state>
       </provider>
@@ -613,15 +472,29 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/admin/layouts/master.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="63">
+        <state relative-caret-position="12104">
           <caret line="712" column="16" selection-start-line="712" selection-start-column="13" selection-end-line="712" selection-end-column="16" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/admin/users/index.blade.php">
+    <entry file="file://$PROJECT_DIR$/database/migrations/2019_04_10_130913_create_role_user_table.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="27" column="50" selection-start-line="27" selection-start-column="50" selection-end-line="27" selection-end-column="50" />
+        <state relative-caret-position="357">
+          <caret line="23" selection-start-line="23" selection-end-line="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/seeds/DatabaseSeeder.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="44" selection-start-line="13" selection-start-column="44" selection-end-line="13" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/seeds/RolesTableSeeder.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="11" selection-start-line="13" selection-start-column="11" selection-end-line="13" selection-end-column="11" />
         </state>
       </provider>
     </entry>
