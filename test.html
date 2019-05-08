@@ -1,0 +1,804 @@
+<!DOCTYPE html>
+<html class="no-js" dir="rtl" lang="fa-IR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>حساب کاربری من - قالب وردپرس فروشگاهی زنبیل | گروه طراحی آوین</title>
+
+    <!-- This site is optimized with the Yoast SEO plugin v9.7 - https://yoast.com/wordpress/plugins/seo/ -->
+    <link rel="canonical" href="http://zanbil.avin-tarh.ir/my-account/" />
+    <meta property="og:locale" content="fa_IR" />
+    <meta property="og:type" content="article" />
+    <meta property="og:title" content="حساب کاربری من - قالب وردپرس فروشگاهی زنبیل | گروه طراحی آوین" />
+    <meta property="og:url" content="http://zanbil.avin-tarh.ir/my-account/" />
+    <meta property="og:site_name" content="قالب وردپرس فروشگاهی زنبیل | گروه طراحی آوین" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="حساب کاربری من - قالب وردپرس فروشگاهی زنبیل | گروه طراحی آوین" />
+    <!-- / Yoast SEO plugin. -->
+
+    <link rel='dns-prefetch' href='//s.w.org' />
+    <link rel="alternate" type="application/rss+xml" title="قالب وردپرس فروشگاهی زنبیل | گروه طراحی آوین &raquo; خوراک" href="http://zanbil.avin-tarh.ir/feed/" />
+    <link rel="alternate" type="application/rss+xml" title="قالب وردپرس فروشگاهی زنبیل | گروه طراحی آوین &raquo; خوراک دیدگاه‌ها" href="http://zanbil.avin-tarh.ir/comments/feed/" />
+    <style type="text/css">
+        img.wp-smiley,
+        img.emoji {
+            display: inline !important;
+            border: none !important;
+            box-shadow: none !important;
+            height: 1em !important;
+            width: 1em !important;
+            margin: 0 .07em !important;
+            vertical-align: -0.1em !important;
+            background: none !important;
+            padding: 0 !important;
+        }
+    </style>
+    <link rel="stylesheet" href="http://zanbil.avin-tarh.ir/wp-content/plugins/woocommerce/assets/css/select2.css?ver=1552210295">
+    <style id='woocommerce-inline-inline-css' type='text/css'>
+        .woocommerce form .form-row .required { visibility: visible; }
+    </style>
+    <link rel="stylesheet" href="http://zanbil.avin-tarh.ir/wp-content/plugins/dokan-pro/includes/modules/store-support/assets/css/style.css?ver=1551021070">
+    <link rel="stylesheet" href="http://zanbil.avin-tarh.ir/wp-content/plugins/dokan-lite/assets/css/style.css?ver=1551912946">
+    <link rel="stylesheet" href="http://zanbil.avin-tarh.ir/wp-content/plugins/dokan-lite/assets/css/rtl.css?ver=1551912946">
+    <link rel="stylesheet" href="http://zanbil.avin-tarh.ir/wp-content/plugins/dokan-lite/assets/vendors/select2/select2.css?ver=1551912948">
+    <link rel="stylesheet" href="http://zanbil.avin-tarh.ir/wp-content/plugins/dokan-lite/assets/vendors/magnific/magnific-popup.css?ver=1551912948">
+    <link rel="stylesheet" href="http://zanbil.avin-tarh.ir/wp-content/plugins/dokan-pro/assets/css/style.css?ver=1551021070">
+    <link rel="stylesheet" href="http://zanbil.avin-tarh.ir/wp-content/plugins/dokan-pro/assets/css/jssocials.css?ver=1551021070">
+    <link rel="stylesheet" href="http://zanbil.avin-tarh.ir/wp-content/plugins/dokan-pro/assets/css/jssocials-theme-flat.css?ver=1551021070">
+    <link rel="stylesheet" href="http://zanbil.avin-tarh.ir/wp-content/themes/zanbil/css/bootstrap.min.css?ver=1540661173">
+    <link rel="stylesheet" href="http://zanbil.avin-tarh.ir/wp-content/themes/zanbil/css/jquery.fancybox.css?ver=1540661217">
+    <link rel="stylesheet" href="http://zanbil.avin-tarh.ir/wp-content/themes/zanbil/css/app-default.css?ver=1552209038">
+    <link rel="stylesheet" href="http://zanbil.avin-tarh.ir/wp-content/themes/zanbil/css/animate.css?ver=1538987577">
+    <link rel="stylesheet" href="http://zanbil.avin-tarh.ir/wp-content/plugins/sw-zanbil/assets/vendors/fontawesome/css/all.min.css?ver=1539608431">
+    <link rel="stylesheet" href="http://zanbil.avin-tarh.ir/wp-content/plugins/sw-zanbil/assets/vendors/fontawesome/css/v4-shims.min.css?ver=1539608431">
+    <link rel="stylesheet" href="http://zanbil.avin-tarh.ir/wp-content/plugins/sw-zanbil/assets/css/thf-customize-wc.min.css?ver=1541063636">
+    <link rel="stylesheet" href="http://zanbil.avin-tarh.ir/wp-content/plugins/sw-zanbil/assets/css/thf-customize-wc-ajax-search.min.css?ver=1540659143">
+    <link rel="stylesheet" href="http://zanbil.avin-tarh.ir/wp-content/plugins/sw-zanbil/assets/css/thf-customize-wc-modal.min.css?ver=1540659341">
+    <link rel="stylesheet" href="http://zanbil.avin-tarh.ir/wp-content/plugins/sw-zanbil/assets/vendors/swiper/css/swiper.min.css?ver=1539608431">
+    <link rel="stylesheet" href="http://zanbil.avin-tarh.ir/wp-content/plugins/sw-zanbil/assets/css/thf-customize-wc-realtime-offer.min.css?ver=1540659955">
+
+    <script type="text/template" id="tmpl-variation-template">
+        <div class="woocommerce-variation-description">{{{ data.variation.variation_description }}}</div>
+        <div class="woocommerce-variation-price">{{{ data.variation.price_html }}}</div>
+    </script>
+    <script type="text/template" id="tmpl-unavailable-variation-template">
+        <p>با عرض پوزش، این محصول در دسترس نیست. خواهشمندیمً ترکیب دیگری را انتخاب کنید.</p>
+    </script>
+    <script type='text/javascript'>
+        /* <![CDATA[ */
+        var dokan = {"ajaxurl":"http:\/\/zanbil.avin-tarh.ir\/wp-admin\/admin-ajax.php","nonce":"c6cb0c2f01","ajax_loader":"http:\/\/zanbil.avin-tarh.ir\/wp-content\/plugins\/dokan-lite\/assets\/images\/ajax-loader.gif","seller":{"available":"\u062f\u0631 \u062f\u0633\u062a\u0631\u0633","notAvailable":"\u0645\u0648\u062c\u0648\u062f \u0646\u06cc\u0633\u062a."},"delete_confirm":"\u0634\u0645\u0627 \u0645\u0637\u0645\u0626\u0646 \u0647\u0633\u062a\u06cc\u062f\u061f","wrong_message":"\u0638\u0627\u0647\u0631\u0627\u064b \u0627\u0634\u062a\u0628\u0627\u0647\u06cc \u0635\u0648\u0631\u062a \u06af\u0631\u0641\u062a\u0647 \u0627\u0633\u062a. \u0644\u0637\u0641\u0627 \u062f\u0648\u0628\u0627\u0631\u0647 \u062a\u0644\u0627\u0634 \u06a9\u0646\u06cc\u062f.","vendor_percentage":"90","commission_type":"percentage","rounding_precision":"6","mon_decimal_point":".","i18n_choose_featured_img":"\u0622\u067e\u0644\u0648\u062f \u062a\u0635\u0648\u06cc\u0631 \u0634\u0627\u062e\u0635","i18n_choose_file":"\u0627\u0646\u062a\u062e\u0627\u0628 \u06cc\u06a9 \u0641\u0627\u06cc\u0644","i18n_choose_gallery":"\u0627\u0641\u0632\u0648\u062f\u0646 \u0639\u06a9\u0633 \u0628\u0647 \u06af\u0627\u0644\u0631\u06cc \u0645\u062d\u0635\u0648\u0644\u0627\u062a","i18n_choose_featured_img_btn_text":"\u062a\u0639\u06cc\u06cc\u0646 \u062a\u0635\u0648\u06cc\u0631 \u0634\u0627\u062e\u0635","i18n_choose_file_btn_text":"\u0648\u0627\u0631\u062f \u06a9\u0631\u062f\u0646 \u0622\u062f\u0631\u0633 \u0641\u0627\u06cc\u0644","i18n_choose_gallery_btn_text":"\u0627\u0641\u0632\u0648\u062f\u0646 \u0628\u0647 \u06af\u0627\u0644\u0631\u06cc","duplicates_attribute_messg":"\u0628\u0627 \u0639\u0631\u0636 \u067e\u0648\u0632\u0634\u060c \u0627\u06cc\u0646 \u06af\u0632\u06cc\u0646\u0647 \u0648\u06cc\u0698\u06af\u06cc \u062f\u0631 \u062d\u0627\u0644 \u062d\u0627\u0636\u0631 \u0648\u062c\u0648\u062f \u062f\u0627\u0631\u062f\u060c \u062f\u06cc\u06af\u0631\u06cc \u0631\u0627 \u0627\u0645\u062a\u062d\u0627\u0646 \u06a9\u0646\u06cc\u062f.","variation_unset_warning":"\u0647\u0634\u062f\u0627\u0631! \u0627\u06af\u0631 \u0627\u06cc\u0646 \u06af\u0632\u06cc\u0646\u0647 \u0631\u0627 \u0627\u0646\u062a\u062e\u0627\u0628 \u0646\u06a9\u0646\u06cc\u062f\u060c \u0627\u06cc\u0646 \u0645\u062d\u0635\u0648\u0644 \u0647\u06cc\u0686 \u0646\u0648\u0639 \u0645\u062a\u063a\u06cc\u0631\u06cc \u0646\u062e\u0648\u0627\u0647\u062f \u062f\u0627\u0634\u062a.","new_attribute_prompt":"\u06cc\u06a9 \u0646\u0627\u0645 \u0628\u0631\u0627\u06cc \u0648\u06cc\u0698\u06af\u06cc \u062c\u062f\u06cc\u062f \u0648\u0627\u0631\u062f \u06a9\u0646\u06cc\u062f:","remove_attribute":"\u062d\u0630\u0641 \u0627\u06cc\u0646 \u062e\u0635\u0648\u0635\u06cc\u062a\u061f","dokan_placeholder_img_src":"http:\/\/zanbil.avin-tarh.ir\/wp-content\/plugins\/woocommerce\/assets\/images\/placeholder.png","add_variation_nonce":"7d37e9b5b9","link_variation_nonce":"607aaedf37","delete_variations_nonce":"db3e955b85","load_variations_nonce":"4afcb2a09b","save_variations_nonce":"2f9c11e826","bulk_edit_variations_nonce":"e370cd91c2","i18n_link_all_variations":"\u0622\u06cc\u0627 \u0634\u0645\u0627 \u0645\u0627\u06cc\u0644 \u0628\u0647 \u062a\u0631\u06a9\u06cc\u0628 \u062a\u0645\u0627\u0645 \u0645\u062a\u063a\u06cc\u0631\u0647\u0627 \u0647\u0633\u062a\u06cc\u062f\u061f \u062f\u0631 \u0627\u06cc\u0646 \u062d\u0627\u0644\u062a \u06cc\u06a9 \u0645\u062a\u063a\u06cc\u0631 \u062c\u062f\u06cc\u062f \u06a9\u0647 \u062d\u0627\u0648\u06cc \u062a\u0631\u06a9\u06cc\u0628 \u062a\u0645\u0627\u0645\u06cc \u0645\u0634\u062e\u0635\u0627\u062a \u0645\u0645\u06a9\u0646 \u0645\u062a\u063a\u06cc\u0631\u0647\u0627\u0633\u062a\u060c \u0633\u0627\u062e\u062a\u0647 \u0645\u06cc\u200c\u0634\u0648\u062f. (\u062f\u0631 \u0628\u06cc\u0634\u062a\u0631\u06cc\u0646 \u062d\u0627\u0644\u062a 50 \u0628\u0627\u0631 \u062f\u0631 \u0647\u0631 \u0627\u062c\u0631\u0627)","i18n_enter_a_value":"\u06cc\u06a9 \u0645\u0642\u062f\u0627\u0631 \u0648\u0627\u0631\u062f \u0646\u0645\u0627\u06cc\u06cc\u062f.","i18n_enter_menu_order":"\u0645\u0646\u0648\u06cc \u062a\u0646\u0648\u0639 \u0633\u0641\u0627\u0631\u0634 (\u062a\u0639\u06cc\u06cc\u0646 \u0645\u0648\u0642\u0639\u06cc\u062a \u062f\u0631 \u0644\u06cc\u0633\u062a \u062a\u063a\u06cc\u06cc\u0631\u0627\u062a)","i18n_enter_a_value_fixed_or_percent":"\u06cc\u06a9 \u0645\u0642\u062f\u0627\u0631 \u0648\u0627\u0631\u062f \u0646\u0645\u0627\u06cc\u06cc\u062f (\u062b\u0627\u0628\u062a \u06cc\u0627 %)","i18n_delete_all_variations":"\u0622\u06cc\u0627 \u0645\u0637\u0645\u0626\u0646 \u0647\u0633\u062a\u06cc\u062f \u06a9\u0647 \u0645\u06cc \u062e\u0648\u0627\u0647\u06cc\u062f \u062a\u0645\u0627\u0645\u06cc \u062a\u063a\u06cc\u06cc\u0631\u0627\u062a \u0631\u0627 \u062d\u0630\u0641 \u06a9\u0646\u06cc\u062f\u061f \u0627\u06cc\u0646 \u0642\u0627\u0628\u0644 \u0628\u0627\u0632\u06af\u0634\u062a \u0646\u06cc\u0633\u062a.","i18n_last_warning":"\u0627\u062e\u0631\u06cc\u0646 \u0647\u0634\u062f\u0627\u0631 \u0622\u06cc\u0627 \u0634\u0645\u0627 \u0627\u0632 \u0627\u06cc\u0646 \u06a9\u0627\u0631 \u0627\u0637\u0645\u06cc\u0646\u0627\u0646 \u062f\u0627\u0631\u06cc\u062f\u061f","i18n_choose_image":"\u0627\u0646\u062a\u062e\u0627\u0628 \u062a\u0635\u0648\u06cc\u0631","i18n_set_image":"\u062a\u0646\u0638\u06cc\u0645 \u062a\u0635\u0648\u06cc\u0631 \u0645\u062a\u063a\u06cc\u0631","i18n_variation_added":"\u062a\u063a\u06cc\u06cc\u0631 \u0627\u0636\u0627\u0641\u0647 \u0634\u062f.","i18n_variations_added":"\u062a\u063a\u06cc\u06cc\u0631\u0627\u062a \u0627\u0636\u0627\u0641\u0647 \u0634\u062f.","i18n_no_variations_added":"\u062a\u063a\u06cc\u06cc\u0631\u0627\u062a\u06cc \u0627\u0636\u0627\u0641\u0647 \u0646\u0634\u062f\u0647 \u0627\u0633\u062a.","i18n_remove_variation":"\u0645\u0637\u0645\u0626\u0646\u06cc\u062f \u06a9\u0647 \u0645\u06cc \u062e\u0648\u0627\u0647\u06cc\u062f  \u0627\u06cc\u0646 \u062a\u063a\u06cc\u06cc\u0631 \u0631\u0627 \u062d\u0630\u0641 \u06a9\u0646\u06cc\u062f\u061f","i18n_scheduled_sale_start":"\u062a\u0627\u0631\u06cc\u062e \u0634\u0631\u0648\u0639 \u062d\u0631\u0627\u062c (\u062f\u0631 \u0642\u0627\u0644\u0628 YYYY-MM-DD \u06cc\u0627 \u062e\u0627\u0644\u06cc \u0628\u06af\u0630\u0627\u0631\u06cc\u062f)","i18n_scheduled_sale_end":"\u062a\u0627\u0631\u06cc\u062e \u067e\u0627\u06cc\u0627\u0646 \u0641\u0631\u0648\u0634 (\u062f\u0631 \u0642\u0627\u0644\u0628 YYYY-MM-DD \u06cc\u0627 \u062e\u0627\u0644\u06cc \u0628\u06af\u0630\u0627\u0631\u06cc\u062f)","i18n_edited_variations":"\u062a\u063a\u06cc\u06cc\u0631\u0627\u062a \u0631\u0627 \u0630\u062e\u06cc\u0631\u0647 \u06a9\u0646\u06cc\u062f \u0642\u0628\u0644 \u0627\u0632 \u0627\u06cc\u0646\u06a9\u0647 \u0635\u0641\u062d\u0647 \u0631\u0627 \u062a\u063a\u06cc\u06cc\u0631 \u062f\u0647\u06cc\u062f.","i18n_variation_count_single":"%qty% \u0645\u062a\u063a\u06cc\u0631","i18n_variation_count_plural":"%qty% \u0645\u062a\u063a\u06cc\u0631\u0647\u0627","i18n_no_result_found":"\u0646\u062a\u06cc\u062c\u0647\u200c\u0627\u06cc \u06cc\u0627\u0641\u062a \u0646\u0634\u062f.","variations_per_page":"10","store_banner_dimension":{"width":"625","height":"300","flex-width":true,"flex-height":true},"selectAndCrop":"\u0627\u0646\u062a\u062e\u0627\u0628 \u0648 \u0628\u0631\u0634","chooseImage":"\u0627\u0646\u062a\u062e\u0627\u0628 \u062a\u0635\u0648\u06cc\u0631","product_title_required":"\u0639\u0646\u0648\u0627\u0646 \u06a9\u0627\u0644\u0627 \u0627\u0644\u0632\u0627\u0645\u06cc \u0645\u06cc \u0628\u0627\u0634\u062f.","product_category_required":"\u062f\u0633\u062a\u0647 \u0645\u062d\u0635\u0648\u0644 \u0636\u0631\u0648\u0631\u06cc \u0627\u0633\u062a.","search_products_nonce":"da1b59a66b","search_customer_nonce":"c79aff41ab","i18n_matches_1":"\u06cc\u06a9 \u0646\u062a\u06cc\u062c\u0647 \u062f\u0631 \u062f\u0633\u062a\u0631\u0633 \u0627\u0633\u062a\u060c \u0628\u0631\u0627\u06cc \u0627\u0646\u062a\u062e\u0627\u0628 \u0622\u0646 \u0631\u0627 \u0641\u0634\u0627\u0631 \u062f\u0647\u06cc\u062f.","i18n_matches_n":"%qty% \u0646\u062a\u06cc\u062c\u0647 \u062f\u0631 \u062f\u0633\u062a\u0631\u0633 \u0627\u0633\u062a. \u0628\u0627 \u0627\u0633\u062a\u0641\u0627\u062f\u0647 \u0627\u0632 \u06a9\u0644\u06cc\u062f\u0647\u0627\u06cc \u0628\u0627\u0644\u0627 \u0648 \u067e\u0627\u06cc\u06cc\u0646 \u0628\u0647 \u0622\u0646\u0647\u0627 \u062f\u0633\u062a\u0631\u0633\u06cc \u062f\u0627\u0634\u062a\u0647 \u0628\u0627\u0634\u06cc\u062f.","i18n_no_matches":"\u062c\u0633\u062a\u062c\u0648 \u062d\u0627\u0635\u0644\u06cc \u062f\u0631\u0628\u0631\u0646\u062f\u0627\u0634\u062a.","i18n_ajax_error":"\u0628\u0627\u0631\u06af\u06cc\u0631\u06cc \u0627\u0646\u062c\u0627\u0645 \u0646\u0634\u062f.","i18n_input_too_short_1":"\u0644\u0637\u0641\u0627 1 \u06cc\u0627 \u0686\u0646\u062f \u06a9\u0627\u0631\u0627\u06a9\u062a\u0631 \u0631\u0627 \u0648\u0627\u0631\u062f \u06a9\u0646\u06cc\u062f.","i18n_input_too_short_n":"\u0644\u0637\u0641\u0627 \u062a\u0639\u062f\u0627\u062f %qty% \u06a9\u0627\u0631\u0627\u06a9\u062a\u0631 \u06cc\u0627 \u0628\u06cc\u0634\u062a\u0631 \u0648\u0627\u0631\u062f \u06a9\u0646\u06cc\u062f.","i18n_input_too_long_1":"\u0644\u0637\u0641\u0627 1 \u06a9\u0627\u0631\u0627\u06a9\u062a\u0631 \u0631\u0627 \u062d\u0630\u0641 \u06a9\u0646\u06cc\u062f.","i18n_input_too_long_n":"\u0644\u0637\u0641\u0627\u064b %qty% \u06a9\u0627\u0631\u0627\u06a9\u062a\u0631 \u0631\u0627 \u062d\u0630\u0641 \u06a9\u0646\u06cc\u062f.","i18n_selection_too_long_1":"\u0634\u0645\u0627 \u0641\u0642\u0637 \u0645\u06cc\u200c\u062a\u0648\u0627\u0646\u06cc\u062f 1 \u0622\u06cc\u062a\u0645 \u0631\u0627 \u0627\u0646\u062a\u062e\u0627\u0628 \u06a9\u0646\u06cc\u062f.","i18n_selection_too_long_n":"\u0634\u0645\u0627 \u062a\u0646\u0647\u0627 \u0645\u06cc\u200c\u062a\u0648\u0627\u0646\u06cc\u062f %qty% \u0622\u06cc\u062a\u0645 \u0627\u0646\u062a\u062e\u0627\u0628 \u06a9\u0646\u06cc\u062f.","i18n_load_more":"\u0628\u0627\u0631\u06af\u0630\u0627\u0631\u06cc \u0646\u062a\u0627\u06cc\u062c \u0628\u06cc\u0634\u062a\u0631\u2026","i18n_searching":"\u062f\u0631\u062d\u0627\u0644 \u062c\u0633\u062a\u062c\u0648\u2026","i18n_date_format":"F j, Y","rest":{"root":"http:\/\/zanbil.avin-tarh.ir\/wp-json\/","nonce":"f680d53034","version":"dokan\/v1"},"api":null,"libs":[],"routeComponents":{"default":null},"routes":[]};
+        var THF = {"cache":"1","isRTL":"1","isLoggedIn":"","spinner":"<div class=\"svg-icon icon-spinner\"><svg width=\"38\" height=\"38\" viewBox=\"0 0 38 38\" xmlns=\"http:\/\/www.w3.org\/2000\/svg\"\n     xmlns:xlink=\"http:\/\/www.w3.org\/1999\/xlink\" preserveAspectRatio=\"xMidYMid\" stroke=\"#727272\">\n    <g fill=\"none\" fill-rule=\"evenodd\">\n        <g transform=\"translate(1 1)\" stroke-width=\"2\">\n            <circle stroke-opacity=\".5\" cx=\"18\" cy=\"18\" r=\"18\"\/>\n            <path d=\"M36 18c0-9.94-8.06-18-18-18\">\n                <animateTransform\n                        attributeName=\"transform\"\n                        type=\"rotate\"\n                        from=\"0 18 18\"\n                        to=\"360 18 18\"\n                        dur=\"1s\"\n                        repeatCount=\"indefinite\"\/>\n            <\/path>\n        <\/g>\n    <\/g>\n<\/svg><\/div>","ajaxURL":"http:\/\/zanbil.avin-tarh.ir\/wp-admin\/admin-ajax.php","ajaxNonce":"8a002f7d2d","typeToSearch":"","lang":{"added":"\u0627\u0641\u0632\u0648\u062f\u0647 \u0634\u062f!","noResults":"\u0647\u06cc\u0686 \u0646\u062a\u06cc\u062c\u0647 \u0627\u06cc \u06cc\u0627\u0641\u062a \u0646\u0634\u062f!"}};
+        /* ]]> */
+    </script>
+    <script type='text/javascript' src='http://zanbil.avin-tarh.ir/wp-includes/js/jquery/jquery.js?ver=1463994029'></script>
+    <script type='text/javascript' src='http://zanbil.avin-tarh.ir/wp-includes/js/jquery/jquery-migrate.min.js?ver=1463724688'></script>
+    <script type='text/javascript' src='http://zanbil.avin-tarh.ir/wp-content/plugins/woocommerce/assets/js/jquery-blockui/jquery.blockUI.min.js?ver=1552210295'></script>
+    <script type='text/javascript'>
+        /* <![CDATA[ */
+        var wc_add_to_cart_params = {"ajax_url":"\/wp-admin\/admin-ajax.php","wc_ajax_url":"\/?wc-ajax=%%endpoint%%","i18n_view_cart":"\u0645\u0634\u0627\u0647\u062f\u0647 \u0633\u0628\u062f \u062e\u0631\u06cc\u062f","cart_url":"http:\/\/zanbil.avin-tarh.ir\/cart\/","is_cart":"","cart_redirect_after_add":"no"};
+        /* ]]> */
+    </script>
+    <script type='text/javascript' src='http://zanbil.avin-tarh.ir/wp-content/plugins/woocommerce/assets/js/frontend/add-to-cart.min.js?ver=1552210295'></script>
+    <script type='text/javascript'>
+        /* <![CDATA[ */
+        var _zxcvbnSettings = {"src":"http:\/\/zanbil.avin-tarh.ir\/wp-includes\/js\/zxcvbn.min.js"};
+        /* ]]> */
+    </script>
+    <script type='text/javascript' src='http://zanbil.avin-tarh.ir/wp-includes/js/zxcvbn-async.min.js?ver=1390970610'></script>
+    <script type='text/javascript' src='http://zanbil.avin-tarh.ir/wp-content/plugins/dokan-pro/includes/modules/single-product-multiple-vendor/assets/js/tinysort.min.js?ver=1551021070'></script>
+    <script type='text/javascript' src='http://zanbil.avin-tarh.ir/wp-content/plugins/js_composer/assets/js/vendors/woocommerce-add-to-cart.js?ver=1516067772'></script>
+    <!--[if lt IE 8]>
+    <script type='text/javascript' src='http://zanbil.avin-tarh.ir/wp-includes/js/json2.min.js?ver=1478151634'></script>
+    <![endif]-->
+    <script type='text/javascript' src='http://zanbil.avin-tarh.ir/wp-content/plugins/woocommerce/assets/js/jquery-serializejson/jquery.serializejson.min.js?ver=1552210295'></script>
+    <script type='text/javascript' src='http://zanbil.avin-tarh.ir/wp-content/plugins/sw_woocommerce/js/slick.min.js?ver=1552217785'></script>
+    <script type='text/javascript' src='http://zanbil.avin-tarh.ir/wp-content/plugins/sw-zanbil/includes/plugins/cyclone-slider-2/js/client.js?ver=1540129024'></script>
+    <script type='text/javascript' src='http://zanbil.avin-tarh.ir/wp-content/themes/zanbil/js/modernizr-2.6.2.min.js?ver=1538987577'></script>
+    <script type='text/javascript' src='http://zanbil.avin-tarh.ir/wp-content/plugins/sw-zanbil/assets/js/thf-customize-wc.min.js?ver=1540659355'></script>
+    <script type='text/javascript' src='http://zanbil.avin-tarh.ir/wp-content/plugins/sw-zanbil/assets/vendors/swiper/js/swiper.min.js?ver=1539608431'></script>
+    <script type='text/javascript' src='http://zanbil.avin-tarh.ir/wp-content/plugins/sw-zanbil/assets/js/thf-customize-wc-realtime-offer.min.js?ver=1539595811'></script>
+    <link rel='https://api.w.org/' href='http://zanbil.avin-tarh.ir/wp-json/' />
+    <link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://zanbil.avin-tarh.ir/xmlrpc.php?rsd" />
+    <link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://zanbil.avin-tarh.ir/wp-includes/wlwmanifest.xml" />
+    <meta name="generator" content="WordPress 4.9.10" />
+    <meta name="generator" content="WooCommerce 3.5.6" />
+    <link rel='shortlink' href='http://zanbil.avin-tarh.ir/?p=9' />
+
+    <meta name="generator" content="Zanbil 3.1" />
+    <noscript><style>.woocommerce-product-gallery{ opacity: 1 !important; }</style></noscript>
+    <meta name='robots' content='noindex,follow' />
+    <style type="text/css">.recentcomments a{display:inline !important;padding:0 !important;margin:0 !important;}</style>
+    <meta name="generator" content="Powered by WPBakery Page Builder - drag and drop page builder for WordPress."/>
+    <!--[if lte IE 9]><link rel="stylesheet" type="text/css" href="http://zanbil.avin-tarh.ir/wp-content/plugins/js_composer/assets/css/vc_lte_ie9.min.css" media="screen"><![endif]-->        <style>
+    input[type="submit"].dokan-btn-theme, a.dokan-btn-theme, .dokan-btn-theme {
+        color: #ffffff !important;
+        background-color: #ff637d !important;
+        border-color: #fff !important;
+    }
+    input[type="submit"].dokan-btn-theme:hover,
+    a.dokan-btn-theme:hover, .dokan-btn-theme:hover,
+    input[type="submit"].dokan-btn-theme:focus,
+    a.dokan-btn-theme:focus, .dokan-btn-theme:focus,
+    input[type="submit"].dokan-btn-theme:active,
+    a.dokan-btn-theme:active, .dokan-btn-theme:active,
+    input[type="submit"].dokan-btn-theme.active, a.dokan-btn-theme.active,
+    .dokan-btn-theme.active,
+    .open .dropdown-toggleinput[type="submit"].dokan-btn-theme,
+    .open .dropdown-togglea.dokan-btn-theme,
+    .open .dropdown-toggle.dokan-btn-theme{
+        color: #ffffff !important;
+        background-color: #D9425C !important;
+        border-color: #fff !important;
+    }
+
+    .dokan-dashboard .dokan-dash-sidebar,
+    .dokan-dashboard .dokan-dash-sidebar ul.dokan-dashboard-menu{
+        background-color : #fff !important;
+    }
+
+    .dokan-dashboard .dokan-dash-sidebar ul.dokan-dashboard-menu li a{
+        color : #666 !important;
+    }
+
+    .dokan-dashboard .dokan-dash-sidebar ul.dokan-dashboard-menu li.active,
+    .dokan-dashboard .dokan-dash-sidebar ul.dokan-dashboard-menu li:hover,
+    .dokan-dashboard .dokan-dash-sidebar ul.dokan-dashboard-menu li.active,
+    .dokan-dashboard .dokan-dash-sidebar ul.dokan-dashboard-menu li.dokan-common-links a:hover{
+        background-color : #f6ffff !important;
+    }
+
+    .dokan-dashboard .dokan-dash-sidebar ul.dokan-dashboard-menu li,
+    .dokan-dashboard .dokan-dash-sidebar ul.dokan-dashboard-menu li a,
+    .dokan-dashboard .dokan-dash-sidebar ul.dokan-dashboard-menu li.dokan-common-links a{
+        border-color : #f2f2f2 !important;
+    }
+</style>
+
+    <noscript><style type="text/css"> .wpb_animate_when_almost_visible { opacity: 1; }</style></noscript></head>
+
+<body class="rtl page page-id-9 woocommerce-account woocommerce-page woocommerce-no-js my-account wpb-js-composer js-comp-ver-5.5.5 vc_responsive dokan-theme-zanbil">
+<div class="body-wrapper theme-clearfix" id="body_wrapper">
+    <div id="header" class="header-style1">
+        <div class="yt-header-top">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-3 col-md-4 sl-header-login">
+                        <div class="top-login pull-left">
+                            <ul style="list-style: none;">
+                                <li>
+                                    <a href="javascript:void(0);" data-toggle="modal" data-target="#login_form_1"><span> وارد شوید </span></a> <span>  یا </span> <a href="http://zanbil.avin-tarh.ir/my-account/" class="register" title="ثبت نام"><span> ثبت نام کنید</span></a> <div class="modal fade" id="login_form_1" tabindex="-1" role="dialog" aria-hidden="true">
+                                    <div class="modal-dialog block-popup-login">
+                                        <a href="javascript:void(0)" title="بستن" class="close close-login" data-dismiss="modal"><i class="fas fa-times"></i></a>
+                                        <div class="tt_popup_login"><strong>عضویت یا ورود</strong></div>
+
+                                        <form action="http://zanbil.avin-tarh.ir/my-account/" method="post" class="login">
+                                            <input name="form_key" type="hidden" value="lDLFLGU1hYlZ9gVL">
+                                            <div class="block-content">
+                                                <div class="col-reg registered-account">
+                                                    <div class="email-input">
+                                                        <input type="text" class="form-control input-text username" name="username" id="username" placeholder="نام کاربری خود را وارد کنید." />
+                                                    </div>
+                                                    <div class="pass-input">
+                                                        <input class="form-control input-text password" type="password" placeholder="کلمه عبور خود را وارد کنید." name="password" id="password" />
+                                                    </div>
+                                                    <div class="ft-link-p">
+                                                        <a href="http://zanbil.avin-tarh.ir/my-account/lost-password/" title="فراموشی کلمه عبور">فراموشی کلمه عبور</a>
+
+                                                    </div>
+                                                    <div class="actions">
+                                                        <div class="submit-login">
+                                                            <input type="hidden" id="_wpnonce" name="_wpnonce" value="4ee8a28d04" /><input type="hidden" name="_wp_http_referer" value="/my-account/" />			                <input type="submit" class="button btn-submit-login" name="login" value="ورود" />
+                                                            <a href="http://zanbil.avin-tarh.ir/my-account/" title="عضویت" class="btn-reg-popup">ایجاد حساب جدید</a>
+                                                        </div>
+                                                    </div>
+
+                                                </div>
+                                                <div class="clearfix"></div>
+                                            </div>
+                                        </form>
+                                        <div class="clear"></div>
+
+                                    </div>
+                                </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="header-right col-lg-9 col-md-8">
+                        <div class="border-header">
+                            <div class="col-lg-10 col-md-5 sl-header-phone">
+                                <a title="ساعات کاری : همه روزه به جز روز های تعطیل از ساعت 8 الی 21 | تلفن تماس09131234567">ساعات کاری : همه روزه به جز روز های تعطیل از ساعت 8 الی 21 | تلفن تماس09131234567</a>
+                            </div>
+                            <!-- user-menu -->
+                            <div class="col-lg-2 col-md-7 top-links-action">
+                                <div class="my-account pull-right">
+                                    <ul>
+                                        <li>
+                                            <a href="http://zanbil.avin-tarh.ir/my-account/">حساب کاربری</a>
+                                            <ul>
+                                                <li><a href="http://zanbil.avin-tarh.ir/my-account/" title="حساب کاربری من">حساب کاربری من</a></li>
+
+                                                <li><a href="http://zanbil.avin-tarh.ir/wishlist/" title="کالاهای مورد علاقه">کالاهای مورد علاقه</a></li>
+                                                <li><a href="http://zanbil.avin-tarh.ir/compare/" title="لیست مقایسه">لیست مقایسه</a></li>
+
+                                                <li><a href="http://zanbil.avin-tarh.ir/cart/" title="سبد خرید">سبد خرید</a></li>
+
+                                                <li><a href="http://zanbil.avin-tarh.ir/checkout/" title="تسویه حساب">تسویه حساب</a></li>
+                                            </ul>
+                                        </li>
+
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="yt-header-middle">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-3 col-md-4 logo-wrapper">
+                        <div class="logo">
+                            <a  href="http://zanbil.avin-tarh.ir/">
+                                <img src="http://zanbil.avin-tarh.ir/wp-content/uploads/2018/10/logo-default.png" alt="قالب وردپرس فروشگاهی زنبیل | گروه طراحی آوین"  width="201" height="62"/>
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-9 col-md-8 yt-searchbox">
+                        <div class="search-pro">
+                            <a class="phone-icon-search  fa fa-search" href="#" title="جستجو"></a>
+                            <div id="sm_serachbox_pro" class="sm-serachbox-pro">
+
+                                <div class="sm-searbox-content">
+                                    <div class="top-form top-search">
+                                        <div class="topsearch-entry">
+                                            <form method="get" id="searchform_special" action="http://zanbil.avin-tarh.ir/">
+                                                <div>
+                                                    <div class="cat-wrapper">
+                                                        <label class="label-search">
+                                                            <select name="search_category" class="s1_option">
+                                                                <option value="">دسته بندی ها</option>
+                                                                <option value="15" >گوشی هوشمند</option><option value="96" >مد و لباس</option>						</select>
+                                                        </label>
+                                                    </div>
+                                                    <input type="text" value="" name="s" id="s" placeholder="کلمه مورد نظر را تایپ کنید..." />
+                                                    <button type="submit" title="جستجو" class="fa fa-search button-search-pro form-button"></button>
+                                                    <input type="hidden" name="search_posttype" value="product" />
+                                                </div>
+                                            </form>
+                                        </div>
+                                    </div>
+
+                                </div>
+
+                                <!-- MiniCart -->
+                                <div class="mini-cart-header">
+                                    <div class="top-form top-form-minicart zanbil-minicart pull-right">
+                                        <a class="cart-contents"><span class="woocommerce-Price-amount amount">0&nbsp;<span class="woocommerce-Price-currencySymbol">تومان</span></span></a>
+                                        <div class="top-minicart-icon pull-right">
+                                            <span class="minicart-number">0</span>	</div>
+                                        <div class="wrapp-minicart">
+                                            <div class="minicart-padding">
+                                                <ul class="minicart-content">
+                                                </ul>
+                                                <div class="cart-checkout">
+                                                    <div class="price-total">
+                                                        <span class="label-price-total">مجموع سبد خرید : </span>
+                                                        <span class="price-total-w"><span class="price"><span class="woocommerce-Price-amount amount">0&nbsp;<span class="woocommerce-Price-currencySymbol">تومان</span></span></span></span>
+                                                    </div>
+                                                    <div class="cart-links clearfix">
+                                                        <div class="cart-link"><a href="http://zanbil.avin-tarh.ir/cart/" title="نمایش سبد خرید">نمایش سبد خرید</a></div>
+                                                        <div class="checkout-link"><a href="http://zanbil.avin-tarh.ir/checkout/" title="تسویه حساب">تسویه حساب</a></div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>					</div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <div class="yt-header-under-2">
+                <div class="container">
+                    <div class="row yt-header-under-wrap">
+                        <div class="yt-main-menu col-md-12">
+                            <div class="header-under-2-wrapper">
+
+                                <div class="yt-searchbox-vermenu">
+                                    <div class="row">
+                                        <div class="col-lg-3 col-md-4 vertical-mega">
+                                            <div class="ver-megamenu-header">
+                                                <div class="mega-left-title">
+                                                    <strong>دسـته بـندی محـصولات</strong>
+                                                </div>
+                                                <ul id="menu-%d9%85%d9%86%d9%88-%d8%b9%d9%85%d9%88%d8%af%db%8c" class="vertical-megamenu zanbil-mega"><li  class="dropdown menu-%da%af%d9%88%d8%b4%db%8c-%d9%87%d9%88%d8%b4%d9%85%d9%86%d8%af zanbil-mega-menu level1"><a href="http://zanbil.avin-tarh.ir/product-category/mobile/" class="item-link dropdown-toggle"><span class="have-title"><span class="menu-title">گوشی هوشمند</span></span></a><ul class="dropdown-menu nav-level1 column-4"><li  class="dropdown-submenu column-4 menu-%d8%a8%d8%b1-%d8%a7%d8%b3%d8%a7%d8%b3-%d8%b3%d8%a7%d8%b2%d9%86%d8%af%d9%87"><a href="http://zanbil.avin-tarh.ir/product-category/mobile/manu/"><span class="have-title"><span class="menu-title">بر اساس سازنده</span></span></a><ul class="dropdown-sub nav-level2"><li  class="menu-%d8%a7%d9%be%d9%84"><a href="http://zanbil.avin-tarh.ir/product-category/mobile/manu/apple/"><span class="have-title"><span class="menu-title">اپل</span></span></a></li><li  class="menu-%d8%a7%d9%84-%d8%ac%db%8c"><a href="http://zanbil.avin-tarh.ir/product-category/mobile/manu/lg/"><span class="have-title"><span class="menu-title">ال جی</span></span></a></li><li  class="menu-%d8%b3%d8%a7%d9%85%d8%b3%d9%88%d9%86%da%af"><a href="http://zanbil.avin-tarh.ir/product-category/mobile/manu/samsoung/"><span class="have-title"><span class="menu-title">سامسونگ</span></span></a></li><li  class="menu-%d8%b3%d9%88%d9%86%db%8c"><a href="http://zanbil.avin-tarh.ir/product-category/mobile/manu/sony/"><span class="have-title"><span class="menu-title">سونی</span></span></a></li><li  class="menu-%d9%86%d9%88%da%a9%db%8c%d8%a7"><a href="http://zanbil.avin-tarh.ir/product-category/mobile/manu/nokia/"><span class="have-title"><span class="menu-title">نوکیا</span></span></a></li><li  class="menu-%d9%85%d9%88%d8%aa%d9%88%d8%b1%d9%88%d9%84%d8%a7"><a href="http://zanbil.avin-tarh.ir/product-category/mobile/"><span class="have-title"><span class="menu-title">موتورولا</span></span></a></li><li  class="menu-%d8%a8%d9%84%da%a9-%d8%a8%d8%b1%db%8c"><a href="http://zanbil.avin-tarh.ir/product-category/mobile/"><span class="have-title"><span class="menu-title">بلک بری</span></span></a></li><li  class="menu-%d9%87%d9%88%d8%a7%d9%88%db%8c"><a href="http://zanbil.avin-tarh.ir/product-category/mobile/"><span class="have-title"><span class="menu-title">هواوی</span></span></a></li></ul></li><li  class="dropdown-submenu column-4 menu-%d9%84%d9%88%d8%a7%d8%b2%d9%85-%d8%ac%d8%a7%d9%86%d8%a8%db%8c-%da%af%d9%88%d8%b4%db%8c-%d9%85%d9%88%d8%a8%d8%a7%db%8c%d9%84"><a href="http://zanbil.avin-tarh.ir/product-category/mobile/acceso/"><span class="have-title"><span class="menu-title">لوازم جانبی گوشی موبایل</span></span></a><ul class="dropdown-sub nav-level2"><li  class="menu-%d9%be%d8%a7%d9%88%d8%b1%d8%a8%d8%a7%d9%86%da%a9"><a href="http://zanbil.avin-tarh.ir/product-category/mobile/acceso/powerbank/"><span class="have-title"><span class="menu-title">پاوربانک</span></span></a></li><li  class="menu-%d8%b4%d8%a7%d8%b1%da%98%d8%b1-%d9%85%d9%88%d8%a8%d8%a7%db%8c%d9%84"><a href="http://zanbil.avin-tarh.ir/product-category/mobile/acceso/charger/"><span class="have-title"><span class="menu-title">شارژر موبایل</span></span></a></li><li  class="menu-%da%af%d8%a7%d8%b1%d8%af-%d9%88-%d9%82%d8%a7%d8%a8"><a href="http://zanbil.avin-tarh.ir/product-category/mobile/"><span class="have-title"><span class="menu-title">گارد و قاب</span></span></a></li><li  class="menu-%d8%aa%d8%a7%da%86-%d9%88-%d8%a7%d9%84-%d8%b3%db%8c-%d8%af%db%8c"><a href="http://zanbil.avin-tarh.ir/product-category/mobile/"><span class="have-title"><span class="menu-title">تاچ و ال سی دی</span></span></a></li><li  class="menu-%da%a9%db%8c%d9%81-%d9%88-%da%a9%d8%a7%d9%88%d8%b1"><a href="http://zanbil.avin-tarh.ir/product-category/mobile/acceso/cover/"><span class="have-title"><span class="menu-title">کیف و کاور</span></span></a></li><li  class="menu-%d9%85%d8%ad%d8%a7%d9%81%d8%b8-%d8%b5%d9%81%d8%ad%d9%87-%d9%86%d9%85%d8%a7%db%8c%d8%b4"><a href="http://zanbil.avin-tarh.ir/product-category/mobile/acceso/glass/"><span class="have-title"><span class="menu-title">محافظ صفحه نمایش</span></span></a></li><li  class="menu-%da%a9%d8%a7%d8%b1%d8%aa-%d8%ad%d8%a7%d9%81%d8%b8%d9%87"><a href="http://zanbil.avin-tarh.ir/product-category/mobile/"><span class="have-title"><span class="menu-title">کارت حافظه</span></span></a></li><li  class="menu-%d8%a8%d8%a7%d8%aa%d8%b1%db%8c-%d9%88-%d8%b3%db%8c%d9%85-%da%a9%d8%a7%d8%b1%d8%aa"><a href="http://zanbil.avin-tarh.ir/product-category/mobile/"><span class="have-title"><span class="menu-title">باتری و سیم کارت</span></span></a></li><li  class="menu-%d9%87%d9%86%d8%af%d8%b2%d9%81%d8%b1%d8%b1%db%8c"><a href="http://zanbil.avin-tarh.ir/product-category/mobile/acceso/handsfree/"><span class="have-title"><span class="menu-title">هندزفرری</span></span></a></li></ul></li><li  class="dropdown-submenu column-4 menu-%d8%a8%d8%b1-%d8%a7%d8%b3%d8%a7%d8%b3-%d8%b3%db%8c%d8%b3%d8%aa%d9%85-%d8%b9%d8%a7%d9%85%d9%84"><a href="http://zanbil.avin-tarh.ir/product-category/mobile/os/"><span class="have-title"><span class="menu-title">بر اساس سیستم عامل</span></span></a><ul class="dropdown-sub nav-level2"><li  class="menu-%d8%a2%db%8c-%d8%a7%d9%88-%d8%a7%d8%b3"><a href="http://zanbil.avin-tarh.ir/product-category/mobile/os/ios/"><span class="have-title"><span class="menu-title">آی او اس</span></span></a></li><li  class="menu-%d8%a7%d9%86%d8%af%d8%b1%d9%88%db%8c%d8%af"><a href="http://zanbil.avin-tarh.ir/product-category/mobile/os/android/"><span class="have-title"><span class="menu-title">اندروید</span></span></a></li><li  class="menu-%d8%ac%d8%a7%d9%88%d8%a7"><a href="http://zanbil.avin-tarh.ir/product-category/mobile/os/java/"><span class="have-title"><span class="menu-title">جاوا</span></span></a></li></ul></li><li  class="column-4 menu-%d8%aa%d8%b5%d9%88%db%8c%d8%b1-%d9%85%d9%86%d9%88 zanbil-menu-img"><span class=""><span class="menu-img"><img src="http://zanbil.avin-tarh.ir/wp-content/uploads/2018/10/mobile-1.png" alt="Menu Image" width="auto" height="auto"/></span></span></li><li  class="col-3 menu-%da%a9%d8%af-html"><a class="all-cat-menu" href="http://zanbil.avin-tarh.ir/product-category/mobile"><i class="fas fa-plus"></i> همه دسته بندی های گوشی هوشمند</a></li></ul></li><li  class="dropdown menu-%d8%a2%d8%b1%d8%a7%db%8c%d8%b4%db%8c-%d8%8c-%d8%a8%d9%87%d8%af%d8%a7%d8%b4%d8%aa%db%8c-%d9%88-%d8%b3%d9%84%d8%a7%d9%85%d8%aa zanbil-mega-menu level1"><a href="http://zanbil.avin-tarh.ir/product-category/mobile" class="item-link dropdown-toggle"><span class="have-title"><span class="menu-title">آرایشی ، بهداشتی و سلامت</span></span></a><ul class="dropdown-menu nav-level1 column-6"><li  class="dropdown-submenu column-6 menu-%d9%84%d9%88%d8%a7%d8%b2%d9%85-%d8%b4%d8%ae%d8%b5%db%8c-%d8%a8%d8%b1%d9%82%db%8c"><a href="http://zanbil.avin-tarh.ir/product-category/mobile/"><span class="have-title"><span class="menu-title">لوازم شخصی برقی</span></span></a><ul class="dropdown-sub nav-level2"><li  class="menu-%d8%b3%d8%b4%d9%88%d8%a7%d8%b1"><a href="http://zanbil.avin-tarh.ir/product-category/mobile/"><span class="have-title"><span class="menu-title">سشوار</span></span></a></li><li  class="menu-%d8%a7%d8%b5%d9%84%d8%a7%d8%ad-%d8%a8%d8%af%d9%86-%d8%a2%d9%82%d8%a7%db%8c%d8%a7%d9%86"><a href="http://zanbil.avin-tarh.ir/product-category/mobile/"><span class="have-title"><span class="menu-title">اصلاح بدن آقایان</span></span></a></li><li  class="menu-%d8%a7%d8%b5%d9%84%d8%a7%d8%ad-%d8%a8%d8%af%d9%86-%d8%a8%d8%a7%d9%86%d9%88%d8%a7%d9%86"><a href="http://zanbil.avin-tarh.ir/product-category/mobile/"><span class="have-title"><span class="menu-title">اصلاح بدن بانوان</span></span></a></li><li  class="menu-%d8%a7%d8%b5%d9%84%d8%a7%d8%ad-%d9%85%d9%88%db%8c-%da%af%d9%88%d8%b4-%d9%88-%d8%a8%db%8c%d9%86%db%8c"><a href="http://zanbil.avin-tarh.ir/product-category/mobile/"><span class="have-title"><span class="menu-title">اصلاح موی گوش و بینی</span></span></a></li><li  class="menu-%d8%a7%d8%aa%d9%88%db%8c-%d8%ad%d8%a7%d9%84%d8%aa-%d8%af%d9%87%d9%86%d8%af%d9%87-%d9%85%d9%88"><a href="http://zanbil.avin-tarh.ir/product-category/mobile/"><span class="have-title"><span class="menu-title">اتوی حالت دهنده مو</span></span></a></li><li  class="menu-%d8%a8%db%8c%da%af%d9%88%d8%af%db%8c-%d9%88-%d9%81%d8%b1%da%a9%d9%86%d9%86%d8%af%d9%87"><a href="http://zanbil.avin-tarh.ir/product-category/mobile/"><span class="have-title"><span class="menu-title">بیگودی و فرکننده</span></span></a></li><li  class="menu-%d9%85%d8%b3%d9%88%d8%a7%da%a9-%d8%a8%d8%b1%d9%82%db%8c"><a href="http://zanbil.avin-tarh.ir/product-category/mobile/"><span class="have-title"><span class="menu-title">مسواک برقی</span></span></a></li><li  class="menu-%d9%84%db%8c%d8%b2%d8%b1"><a href="http://zanbil.avin-tarh.ir/product-category/mobile/"><span class="have-title"><span class="menu-title">لیزر</span></span></a></li></ul></li><li  class="dropdown-submenu column-6 menu-%d8%a7%d8%a8%d8%b2%d8%a7%d8%b1-%d8%b3%d9%84%d8%a7%d9%85%d8%aa-%d9%88-%d8%b7%d8%a8%db%8c"><a href="http://zanbil.avin-tarh.ir/product-category/mobile/"><span class="have-title"><span class="menu-title">ابزار سلامت و طبی</span></span></a><ul class="dropdown-sub nav-level2"><li  class="menu-%d9%85%da%86-%d8%a8%d9%86%d8%af-%d9%88-%d8%b3%d8%a7%d8%b9%d8%aa-%d9%87%d9%88%d8%b4%d9%85%d9%86%d8%af"><a href="http://zanbil.avin-tarh.ir/product-category/mobile/"><span class="have-title"><span class="menu-title">مچ بند و ساعت هوشمند</span></span></a></li><li  class="menu-%d8%aa%d8%b1%d8%a7%d8%b2%d9%88"><a href="http://zanbil.avin-tarh.ir/product-category/mobile/"><span class="have-title"><span class="menu-title">ترازو</span></span></a></li><li  class="menu-%da%a9%d8%a7%d9%84%d8%a7%db%8c-%d8%ae%d9%88%d8%a7%d8%a8-%d9%88-%d8%a7%d8%b3%d8%aa%d8%b1%d8%a7%d8%ad%d8%aa-%d8%b7%d8%a8%db%8c"><a href="http://zanbil.avin-tarh.ir/product-category/mobile/"><span class="have-title"><span class="menu-title">کالای خواب و استراحت طبی</span></span></a></li><li  class="menu-%d8%aa%d8%b3%d8%aa-%d9%82%d9%86%d8%af-%d8%ae%d9%88%d9%86"><a href="http://zanbil.avin-tarh.ir/product-category/mobile/"><span class="have-title"><span class="menu-title">تست قند خون</span></span></a></li><li  class="menu-%d8%b8"><a href="http://zanbil.avin-tarh.ir/product-category/mobile/"><span class="have-title"><span class="menu-title">ظ</span></span></a></li><li  class="menu-%d9%81%d8%b4%d8%a7%d8%b1-%d8%b3%d9%86%d8%ac"><a href="http://zanbil.avin-tarh.ir/product-category/mobile/"><span class="have-title"><span class="menu-title">فشار سنج</span></span></a></li><li  class="menu-%d9%85%d8%a7%d8%b3%d8%a7%da%98%d9%88%d8%b1"><a href="http://zanbil.avin-tarh.ir/product-category/mobile/"><span class="have-title"><span class="menu-title">ماساژور</span></span></a></li><li  class="menu-%d9%86%d9%85%d8%a7%db%8c%d8%b4%da%af%d8%b1-%d8%b6%d8%b1%d8%a8%d8%a7%d9%86-%d9%82%d9%84%d8%a8"><a href="http://zanbil.avin-tarh.ir/product-category/mobile/"><span class="have-title"><span class="menu-title">نمایشگر ضربان قلب</span></span></a></li><li  class="menu-%d8%aa%d8%b4%da%a9-%d9%88-%d9%be%d8%aa%d9%88%db%8c-%d8%a8%d8%b1%d9%82%db%8c"><a href="http://zanbil.avin-tarh.ir/product-category/mobile/"><span class="have-title"><span class="menu-title">تشک و پتوی برقی</span></span></a></li><li  class="menu-%d9%88%db%8c%d9%84%da%86%d8%b1"><a href="http://zanbil.avin-tarh.ir/product-category/mobile/"><span class="have-title"><span class="menu-title">ویلچر</span></span></a></li></ul></li><li  class="dropdown-submenu column-6 menu-%d8%b7%d9%84%d8%a7-%d9%88-%d9%86%d9%82%d8%b1%d9%87-%d9%88-%d8%b2%db%8c%d9%88%d8%b1%d8%a2%d9%84%d8%a7%d8%aa"><a href="http://zanbil.avin-tarh.ir/product-category/mobile/"><span class="have-title"><span class="menu-title">طلا و نقره و زیورآلات</span></span></a><ul class="dropdown-sub nav-level2"><li  class="menu-%d8%b2%db%8c%d9%88%d8%b1%d8%a2%d9%84%d8%a7%d8%aa-%d8%b7%d9%84%d8%a7"><a href="http://zanbil.avin-tarh.ir/product-category/mobile/"><span class="have-title"><span class="menu-title">زیورآلات طلا</span></span></a></li><li  class="menu-%d8%b2%db%8c%d9%88%d8%b1%d8%a2%d9%84%d8%a7%d8%aa-%d9%86%d9%82%d8%b1%d9%87"><a href="http://zanbil.avin-tarh.ir/product-category/mobile/"><span class="have-title"><span class="menu-title">زیورآلات نقره</span></span></a></li><li  class="menu-%d8%ad%d9%84%d9%82%d9%87-%d9%88-%d8%a7%d9%86%da%af%d8%b4%d8%aa%d8%b1"><a href="http://zanbil.avin-tarh.ir/product-category/mobile/"><span class="have-title"><span class="menu-title">حلقه و انگشتر</span></span></a></li><li  class="menu-%d8%af%d8%b3%d8%aa%d8%a8%d9%86%d8%af-%d9%88-%da%af%d8%b1%d8%af%d9%86%d8%a8%d9%86%d8%af"><a href="http://zanbil.avin-tarh.ir/product-category/mobile/"><span class="have-title"><span class="menu-title">دستبند و گردنبند</span></span></a></li><li  class="menu-%da%af%d9%88%d8%b4%d9%88%d8%a7%d8%b1%d9%87"><a href="http://zanbil.avin-tarh.ir/product-category/mobile/"><span class="have-title"><span class="menu-title">گوشواره</span></span></a></li></ul></li><li  class="dropdown-submenu column-6 menu-%d9%84%d9%88%d8%a7%d8%b2%d9%85-%d8%a2%d8%b1%d8%a7%db%8c%d8%b4%db%8c"><a href="http://zanbil.avin-tarh.ir/product-category/mobile/"><span class="have-title"><span class="menu-title">لوازم آرایشی</span></span></a><ul class="dropdown-sub nav-level2"><li  class="menu-%d8%a2%d8%b1%d8%a7%db%8c%d8%b4-%da%86%d8%b4%d9%85-%d9%88-%d8%a7%d8%a8%d8%b1%d9%88"><a href="http://zanbil.avin-tarh.ir/product-category/mobile"><span class="have-title"><span class="menu-title">آرایش چشم و ابرو</span></span></a></li><li  class="menu-%d8%a2%d8%b1%d8%a7%db%8c%d8%b4-%d9%84%d8%a8"><a href="http://zanbil.avin-tarh.ir/product-category/mobile"><span class="have-title"><span class="menu-title">آرایش لب</span></span></a></li><li  class="menu-%d8%a2%d8%b1%d8%a7%db%8c%d8%b4-%d8%b5%d9%88%d8%b1%d8%aa"><a href="http://zanbil.avin-tarh.ir/product-category/mobile/"><span class="have-title"><span class="menu-title">آرایش صورت</span></span></a></li><li  class="menu-%d9%85%d9%88%d8%a7%d8%b1%d8%af-%d8%a2%d8%b1%d8%a7%db%8c%d8%b4-%d9%85%d9%88"><a href="http://zanbil.avin-tarh.ir/product-category/mobile/"><span class="have-title"><span class="menu-title">موارد آرایش مو</span></span></a></li></ul></li><li  class="dropdown-submenu column-6 menu-%d9%84%d9%88%d8%a7%d8%b2%d9%85-%d8%a8%d9%87%d8%af%d8%a7%d8%b4%d8%aa%db%8c"><a href="http://zanbil.avin-tarh.ir/product-category/mobile/"><span class="have-title"><span class="menu-title">لوازم بهداشتی</span></span></a><ul class="dropdown-sub nav-level2"><li  class="menu-%da%a9%d8%b1%d9%85-%d9%88-%d9%85%d8%b1%d8%a7%d9%82%d8%a8%d8%aa-%d9%be%d9%88%d8%b3%d8%aa"><a href="http://zanbil.avin-tarh.ir/product-category/mobile/"><span class="have-title"><span class="menu-title">کرم و مراقبت پوست</span></span></a></li><li  class="menu-%d8%b4%d8%a7%d9%85%d9%be%d9%88-%d9%88-%d9%85%d8%b1%d8%a7%d9%82%d8%a8%d8%aa-%d9%85%d9%88"><a href="http://zanbil.avin-tarh.ir/product-category/mobile/"><span class="have-title"><span class="menu-title">شامپو و مراقبت مو</span></span></a></li><li  class="menu-%d8%a8%d9%87%d8%af%d8%a7%d8%b4%d8%aa-%d8%af%d9%87%d8%a7%d9%86-%d9%88-%d8%af%d9%86%d8%af%d8%a7%d9%86"><a href="http://zanbil.avin-tarh.ir/product-category/mobile/"><span class="have-title"><span class="menu-title">بهداشت دهان و دندان</span></span></a></li><li  class="menu-%d8%b6%d8%af-%d8%aa%d8%b9%d8%b1%db%8c%d9%82"><a href="http://zanbil.avin-tarh.ir/product-category/mobile/"><span class="have-title"><span class="menu-title">ضد تعریق</span></span></a></li></ul></li><li  class="dropdown-submenu column-6 menu-%d8%b9%db%8c%d9%86%da%a9-%d8%a2%d9%81%d8%aa%d8%a7%d8%a8%db%8c"><a href="http://zanbil.avin-tarh.ir/product-category/mobile/"><span class="have-title"><span class="menu-title">عینک آفتابی</span></span></a><ul class="dropdown-sub nav-level2"><li  class="menu-%d8%b2%d9%86%d8%a7%d9%86%d9%87"><a href="http://zanbil.avin-tarh.ir/product-category/mobile/"><span class="have-title"><span class="menu-title">زنانه</span></span></a></li><li  class="menu-%d9%85%d8%b1%d8%af%d8%a7%d9%86%d9%87"><a href="http://zanbil.avin-tarh.ir/product-category/mobile/"><span class="have-title"><span class="menu-title">مردانه</span></span></a></li></ul></li><li  class="column-6 menu-%d8%aa%d8%b5%d9%88%db%8c%d8%b1-%d9%85%d9%86%d9%88 zanbil-menu-img"><span class=""><span class="menu-img"><img src="http://zanbil.avin-tarh.ir/wp-content/uploads/2018/10/make2-1.png" alt="Menu Image" width="auto" height="auto"/></span></span></li><li  class="column-6 menu-%da%a9%d8%af-html"><a class="all-cat-menu" href="http://zanbil.avin-tarh.ir/product-category/mobile"><i class="fas fa-plus"></i> همه دسته بندی های بهداشت و سلامت</a></li></ul></li><li  class="menu-%d9%85%d8%af-%d9%88-%d9%be%d9%88%d8%b4%d8%a7%da%a9 zanbil-menu-custom level1"><a href="http://zanbil.avin-tarh.ir/product-category/mobile/" class="item-link" ><span class="have-title"><span class="menu-title">مد و پوشاک</span></span></a></li><li  class="menu-%d9%84%d9%88%d8%a7%d8%b2%d9%85-%d8%ae%d8%a7%d9%86%da%af%db%8c zanbil-menu-custom level1"><a href="http://zanbil.avin-tarh.ir/product-category/mobile/" class="item-link" ><span class="have-title"><span class="menu-title">لوازم خانگی</span></span></a></li><li  class="menu-%d9%88%d8%b1%d8%b2%d8%b4-%d9%88-%d8%b3%d9%81%d8%b1 zanbil-menu-custom level1"><a href="http://zanbil.avin-tarh.ir/product-category/mobile/" class="item-link" ><span class="have-title"><span class="menu-title">ورزش و سفر</span></span></a></li><li  class="menu-%d8%a7%d8%b3%d8%a8%d8%a7%d8%a8-%d8%a8%d8%a7%d8%b2%db%8c-%d9%88-%da%a9%d9%88%d8%af%da%a9 zanbil-menu-custom level1"><a href="http://zanbil.avin-tarh.ir/product-category/mobile/" class="item-link" ><span class="have-title"><span class="menu-title">اسباب بازی و کودک</span></span></a></li><li  class="menu-%da%a9%d8%aa%d8%a7%d8%a8-%d9%88-%d9%84%d9%88%d8%a7%d8%b2%d9%85-%d8%aa%d8%ad%d8%b1%db%8c%d8%b1 zanbil-menu-custom level1"><a href="http://zanbil.avin-tarh.ir/product-category/mobile/" class="item-link" ><span class="have-title"><span class="menu-title">کتاب و لوازم تحریر</span></span></a></li><li  class="menu-%d8%a7%d8%a8%d8%b2%d8%a7%d8%b1-%d9%88-%d8%a7%d9%84%da%a9%d8%aa%d8%b1%db%8c%da%a9 zanbil-menu-custom level1"><a href="http://zanbil.avin-tarh.ir/product-category/mobile/" class="item-link" ><span class="have-title"><span class="menu-title">ابزار و الکتریک</span></span></a></li><li  class="menu-%d8%b5%d9%86%d8%a7%db%8c%d8%b9-%d8%af%d8%b3%d8%aa%db%8c zanbil-menu-custom level1"><a href="http://zanbil.avin-tarh.ir/product-category/mobile/" class="item-link" ><span class="have-title"><span class="menu-title">صنایع دستی</span></span></a></li><li  class="menu-%d8%ae%d8%a7%d9%86%d9%87-%d9%88-%d8%a2%d8%b4%d9%be%d8%b2%d8%ae%d8%a7%d9%86%d9%87 zanbil-menu-custom level1"><a href="http://zanbil.avin-tarh.ir/product-category/mobile/" class="item-link" ><span class="have-title"><span class="menu-title">خانه و آشپزخانه</span></span></a></li></ul>
+                                            </div>
+                                        </div>
+
+                                        <div class="yt-header-under col-lg-9 col-md-8 no-padding-l">
+                                            <nav id="primary-menu" class="primary-menu">
+                                                <div class="yt-menu">
+                                                    <div class="navbar-inner navbar-inverse">
+                                                        <ul id="menu-%d9%85%d9%86%d9%88%db%8c-%d8%a7%d8%b5%d9%84%db%8c" class="nav nav-pills nav-mega zanbil-mega"><li  class="dropdown menu-%d8%af%d9%85%d9%88-%d9%87%d8%a7 zanbil-mega-menu level1"><a href="#" class="item-link dropdown-toggle"><span class="have-title"><span class="menu-title">دمو ها</span></span></a><ul class="dropdown-menu nav-level1 column-1"><li  class="col-3 menu-%d8%af%d9%85%d9%88-%d9%87%d8%a7"><div class="vc_row wpb_row vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-6"><div class="vc_column-inner "><div class="wpb_wrapper"><div class="vc_empty_space"   style="height: 12px" ><span class="vc_empty_space_inner"></span></div>
+
+                                                            <div class="wpb_text_column wpb_content_element " >
+                                                                <div class="wpb_wrapper">
+                                                                    <h3><span style="color: #1ca2bd;">◊ دمو ها ◊<br />
+</span></h3>
+
+                                                                </div>
+                                                            </div>
+                                                            <div class="vc_empty_space"   style="height: 15px" ><span class="vc_empty_space_inner"></span></div>
+                                                            <div class="vc_btn3-container vc_btn3-inline" >
+                                                                <a class="vc_general vc_btn3 vc_btn3-size-sm vc_btn3-shape-rounded vc_btn3-style-flat vc_btn3-icon-right vc_btn3-color-white" href="http://zanbil.avin-tarh.ir/demo1/" title="">دمو شماره یک <i class="vc_btn3-icon fa fa-circle-thin"></i></a></div>
+                                                            <div class="vc_btn3-container vc_btn3-inline" >
+                                                                <a class="vc_general vc_btn3 vc_btn3-size-sm vc_btn3-shape-rounded vc_btn3-style-flat vc_btn3-icon-right vc_btn3-color-white" href="http://zanbil.avin-tarh.ir/demo2/" title="">دمو شماره دو <i class="vc_btn3-icon fa fa-circle-thin"></i></a></div>
+                                                            <div class="vc_btn3-container vc_btn3-inline" >
+                                                                <a class="vc_general vc_btn3 vc_btn3-size-sm vc_btn3-shape-rounded vc_btn3-style-flat vc_btn3-icon-right vc_btn3-color-white" href="http://zanbil.avin-tarh.ir/demo3/" title="">دمو شماره سه <i class="vc_btn3-icon fa fa-circle-thin"></i></a></div>
+                                                            <div class="vc_btn3-container vc_btn3-inline" >
+                                                                <a class="vc_general vc_btn3 vc_btn3-size-sm vc_btn3-shape-rounded vc_btn3-style-flat vc_btn3-icon-right vc_btn3-color-white" href="http://zanbil.avin-tarh.ir/demo4/" title="">دمو شماره چهار <i class="vc_btn3-icon fa fa-circle-thin"></i></a></div>
+                                                            <div class="vc_btn3-container vc_btn3-inline" >
+                                                                <a class="vc_general vc_btn3 vc_btn3-size-sm vc_btn3-shape-rounded vc_btn3-style-flat vc_btn3-icon-right vc_btn3-color-white" href="http://zanbil.avin-tarh.ir/demo5/" title="">دمو شماره پنج <i class="vc_btn3-icon fa fa-circle-thin"></i></a></div>
+                                                            <div class="vc_btn3-container vc_btn3-inline" >
+                                                                <a class="vc_general vc_btn3 vc_btn3-size-sm vc_btn3-shape-rounded vc_btn3-style-flat vc_btn3-icon-right vc_btn3-color-white" href="http://zanbil.avin-tarh.ir/demo6/" title="">دمو شماره شش <i class="vc_btn3-icon fa fa-circle-thin"></i></a></div>
+                                                        </div></div></div><div class="wpb_column vc_column_container vc_col-sm-6"><div class="vc_column-inner "><div class="wpb_wrapper"><div class="vc_empty_space"   style="height: 12px" ><span class="vc_empty_space_inner"></span></div>
+
+                                                            <div class="wpb_text_column wpb_content_element " >
+                                                                <div class="wpb_wrapper">
+                                                                    <h3><span style="color: #1ca2bd;">◊ برخی امکانات قالب ◊<br />
+</span></h3>
+
+                                                                </div>
+                                                            </div>
+                                                            <div class="vc_empty_space"   style="height: 15px" ><span class="vc_empty_space_inner"></span></div>
+                                                            <div class="vc_btn3-container vc_btn3-inline" >
+                                                                <a class="vc_general vc_btn3 vc_btn3-size-sm vc_btn3-shape-rounded vc_btn3-style-flat vc_btn3-icon-right vc_btn3-color-white" href="http://zanbil.avin-tarh.ir/demo6/" title="">صفحه لیست قیمت <i class="vc_btn3-icon fa fa-circle-thin"></i></a></div>
+                                                            <div class="vc_btn3-container vc_btn3-inline" >
+                                                                <a class="vc_general vc_btn3 vc_btn3-size-sm vc_btn3-shape-rounded vc_btn3-style-flat vc_btn3-icon-right vc_btn3-color-white" href="http://zanbil.avin-tarh.ir/demo6/" title="">آرشیو پیشنهادات شگفت انگیز <i class="vc_btn3-icon fa fa-circle-thin"></i></a></div>
+                                                            <div class="vc_btn3-container vc_btn3-inline" >
+                                                                <a class="vc_general vc_btn3 vc_btn3-size-sm vc_btn3-shape-rounded vc_btn3-style-flat vc_btn3-icon-right vc_btn3-color-white" href="http://zanbil.avin-tarh.ir/demo6/" title="">صفحات لندینگ <i class="vc_btn3-icon fa fa-circle-thin"></i></a></div>
+                                                            <div class="vc_btn3-container vc_btn3-inline" >
+                                                                <a class="vc_general vc_btn3 vc_btn3-size-sm vc_btn3-shape-rounded vc_btn3-style-flat vc_btn3-icon-right vc_btn3-color-white" href="http://zanbil.avin-tarh.ir/demo6/" title="">محصول ناموجود <i class="vc_btn3-icon fa fa-circle-thin"></i></a></div>
+                                                            <div class="vc_btn3-container vc_btn3-inline" >
+                                                                <a class="vc_general vc_btn3 vc_btn3-size-sm vc_btn3-shape-rounded vc_btn3-style-flat vc_btn3-icon-right vc_btn3-color-white" href="http://zanbil.avin-tarh.ir/demo6/" title="">طراحی محصول با ویژوال کامپوزر <i class="vc_btn3-icon fa fa-circle-thin"></i></a></div>
+                                                            <div class="vc_btn3-container vc_btn3-inline" >
+                                                                <a class="vc_general vc_btn3 vc_btn3-size-sm vc_btn3-shape-rounded vc_btn3-style-flat vc_btn3-icon-right vc_btn3-color-white" href="http://zanbil.avin-tarh.ir/demo6/" title="">محصول متغییر <i class="vc_btn3-icon fa fa-circle-thin"></i></a></div>
+                                                            <div class="vc_btn3-container vc_btn3-inline" >
+                                                                <a class="vc_general vc_btn3 vc_btn3-size-sm vc_btn3-shape-rounded vc_btn3-style-flat vc_btn3-icon-right vc_btn3-color-white" href="http://zanbil.avin-tarh.ir/demo6/" title="">مجله اینترنتی <i class="vc_btn3-icon fa fa-circle-thin"></i></a></div>
+                                                        </div></div></div></div></li></ul></li><li  class="menu-%d9%81%d8%b1%d9%88%d8%b4%da%af%d8%a7%d9%87 zanbil-menu-custom level1"><a href="http://zanbil.avin-tarh.ir/shop/" class="item-link" ><span class="have-title"><span class="menu-title">فروشگاه</span></span></a></li><li  class="dropdown menu-%d9%85%d9%86%d9%88-%d8%a2%d8%a8%d8%b4%d8%a7%d8%b1%db%8c zanbil-menu-custom level1"><a href="#" class="item-link dropdown-toggle"><span class="have-title"><span class="menu-title">منو آبشاری</span></span></a><ul class="dropdown-menu"><li  class="dropdown-submenu column-2 menu-%d8%b2%db%8c%d8%b1-%d9%85%d9%86%d9%88-%d8%b4%d9%85%d8%a7%d8%b1%d9%87-%db%8c%da%a9"><a href="#"><span class="have-title"><span class="menu-title">زیر منو شماره یک</span></span></a><ul class="dropdown-sub nav-level2"><li  class="menu-%d9%82%d8%a7%d9%84%d8%a8-%d9%81%d8%b1%d9%88%d8%b4%da%af%d8%a7%d9%87%db%8c-%d8%b2%d9%86%d8%a8%db%8c%d9%84"><a href="#"><span class="have-title"><span class="menu-title">قالب فروشگاهی زنبیل</span></span></a></li><li  class="menu-%d9%82%d8%a7%d9%84%d8%a8-%d9%81%d8%b1%d9%88%d8%b4%da%af%d8%a7%d9%87%db%8c-%d8%b2%d9%86%d8%a8%db%8c%d9%84"><a href="#"><span class="have-title"><span class="menu-title">قالب فروشگاهی زنبیل</span></span></a></li><li  class="menu-%d9%82%d8%a7%d9%84%d8%a8-%d9%81%d8%b1%d9%88%d8%b4%da%af%d8%a7%d9%87%db%8c-%d8%b2%d9%86%d8%a8%db%8c%d9%84"><a href="#"><span class="have-title"><span class="menu-title">قالب فروشگاهی زنبیل</span></span></a></li><li  class="menu-%d9%82%d8%a7%d9%84%d8%a8-%d9%81%d8%b1%d9%88%d8%b4%da%af%d8%a7%d9%87%db%8c-%d8%b2%d9%86%d8%a8%db%8c%d9%84"><a href="#"><span class="have-title"><span class="menu-title">قالب فروشگاهی زنبیل</span></span></a></li><li  class="menu-%d9%82%d8%a7%d9%84%d8%a8-%d9%81%d8%b1%d9%88%d8%b4%da%af%d8%a7%d9%87%db%8c-%d8%b2%d9%86%d8%a8%db%8c%d9%84"><a href="#"><span class="have-title"><span class="menu-title">قالب فروشگاهی زنبیل</span></span></a></li></ul></li><li  class="dropdown-submenu column-2 menu-%d8%b2%db%8c%d8%b1-%d9%85%d9%86%d9%88-%d8%b4%d9%85%d8%a7%d8%b1%d9%87-%d8%af%d9%88"><a href="#"><span class="have-title"><span class="menu-title">زیر منو شماره دو</span></span></a><ul class="dropdown-sub nav-level2"><li  class="menu-%d9%82%d8%a7%d9%84%d8%a8-%d9%81%d8%b1%d9%88%d8%b4%da%af%d8%a7%d9%87%db%8c-%d8%b2%d9%86%d8%a8%db%8c%d9%84"><a href="#"><span class="have-title"><span class="menu-title">قالب فروشگاهی زنبیل</span></span></a></li><li  class="menu-%d9%82%d8%a7%d9%84%d8%a8-%d9%81%d8%b1%d9%88%d8%b4%da%af%d8%a7%d9%87%db%8c-%d8%b2%d9%86%d8%a8%db%8c%d9%84"><a href="#"><span class="have-title"><span class="menu-title">قالب فروشگاهی زنبیل</span></span></a></li><li  class="menu-%d9%82%d8%a7%d9%84%d8%a8-%d9%81%d8%b1%d9%88%d8%b4%da%af%d8%a7%d9%87%db%8c-%d8%b2%d9%86%d8%a8%db%8c%d9%84"><a href="#"><span class="have-title"><span class="menu-title">قالب فروشگاهی زنبیل</span></span></a></li><li  class="menu-%d9%82%d8%a7%d9%84%d8%a8-%d9%81%d8%b1%d9%88%d8%b4%da%af%d8%a7%d9%87%db%8c-%d8%b2%d9%86%d8%a8%db%8c%d9%84"><a href="#"><span class="have-title"><span class="menu-title">قالب فروشگاهی زنبیل</span></span></a></li><li  class="menu-%d9%82%d8%a7%d9%84%d8%a8-%d9%81%d8%b1%d9%88%d8%b4%da%af%d8%a7%d9%87%db%8c-%d8%b2%d9%86%d8%a8%db%8c%d9%84"><a href="#"><span class="have-title"><span class="menu-title">قالب فروشگاهی زنبیل</span></span></a></li></ul></li></ul></li><li  class="menu-%d9%85%d8%ac%d9%84%d9%87-%d8%a7%db%8c%d9%86%d8%aa%d8%b1%d9%86%d8%aa%db%8c zanbil-menu-custom level1 zanbil-menu-icon"><a href="http://zanbil.avin-tarh.ir/%d9%85%d8%ac%d9%84%d9%87-%d8%a7%db%8c%d9%86%d8%aa%d8%b1%d9%86%d8%aa%db%8c/" class="item-link" ><span class="have-icon have-title"><span class="fa fa-comment-o"></span><span class="menu-title">مجله اینترنتی</span></span></a></li><li  class="menu-%d9%84%db%8c%d8%b3%d8%aa-%d9%82%db%8c%d9%85%d8%aa zanbil-menu-custom level1"><a href="http://zanbil.avin-tarh.ir/%d9%84%db%8c%d8%b3%d8%aa-%d9%82%db%8c%d9%85%d8%aa/" class="item-link" ><span class="have-title"><span class="menu-title">لیست قیمت</span></span></a></li><li  class="menu-%d8%b3%d9%88%d8%a7%d9%84%d8%a7%d8%aa-%d9%85%d8%aa%d8%af%d8%a7%d9%88%d9%84 zanbil-menu-custom level1"><a href="http://zanbil.avin-tarh.ir/%d8%b3%d9%88%d8%a7%d9%84%d8%a7%d8%aa-%d9%85%d8%aa%d8%af%d8%a7%d9%88%d9%84/" class="item-link" ><span class="have-title"><span class="menu-title">سوالات متداول</span></span></a></li><li  class="menu-%d8%a2%d8%b1%d8%b4%db%8c%d9%88-%d9%88%d8%a8%d9%84%d8%a7%da%af zanbil-menu-custom level1"><a href="http://zanbil.avin-tarh.ir/%d8%a2%d8%b1%d8%b4%db%8c%d9%88-%d9%88%d8%a8%d9%84%d8%a7%da%af/" class="item-link" ><span class="have-title"><span class="menu-title">آرشیو وبلاگ</span></span></a></li><li  class="menu-%d8%aa%d9%85%d8%a7%d8%b3-%d8%a8%d8%a7-%d9%85%d8%a7 zanbil-mega-menu level1"><a href="http://zanbil.avin-tarh.ir/%d8%aa%d9%85%d8%a7%d8%b3-%d8%a8%d8%a7-%d9%85%d8%a7/" class="item-link" ><span class="have-title"><span class="menu-title">تماس با ما</span></span></a></li></ul>											</div>
+                                                </div>
+                                            </nav>
+                                            <div class="menu-hotdeals hidden-sm hidden-xs">
+                                                <a class="custom-font" href="http://zanbil.avin-tarh.ir/%db%8c%d9%84%d8%af%d8%a7%db%8c-%d9%88%db%8c%da%98%d9%87/">
+                                                    یلدای ویژه										</a>
+                                            </div>
+                                            <!-- MiniCart -->
+                                            <div class="mini-cart-header">
+                                                <div class="top-form top-form-minicart zanbil-minicart pull-right">
+                                                    <a class="cart-contents"><span class="woocommerce-Price-amount amount">0&nbsp;<span class="woocommerce-Price-currencySymbol">تومان</span></span></a>
+                                                    <div class="top-minicart-icon pull-right">
+                                                        <span class="minicart-number">0</span>	</div>
+                                                    <div class="wrapp-minicart">
+                                                        <div class="minicart-padding">
+                                                            <ul class="minicart-content">
+                                                            </ul>
+                                                            <div class="cart-checkout">
+                                                                <div class="price-total">
+                                                                    <span class="label-price-total">مجموع سبد خرید : </span>
+                                                                    <span class="price-total-w"><span class="price"><span class="woocommerce-Price-amount amount">0&nbsp;<span class="woocommerce-Price-currencySymbol">تومان</span></span></span></span>
+                                                                </div>
+                                                                <div class="cart-links clearfix">
+                                                                    <div class="cart-link"><a href="http://zanbil.avin-tarh.ir/cart/" title="نمایش سبد خرید">نمایش سبد خرید</a></div>
+                                                                    <div class="checkout-link"><a href="http://zanbil.avin-tarh.ir/checkout/" title="تسویه حساب">تسویه حساب</a></div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>								</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container zanbil_breadcrumbs">
+        <div class="row">
+            <div class="listing-title" >
+                <h1><span>حساب کاربری من</h1></span>
+                <div class="breadcrumbs custom-font theme-clearfix"><ul class="breadcrumb" ><li><a href="http://zanbil.avin-tarh.ir" >صفحه اصلی</a><span class="go-page"><i class="fa fa-angle-left" aria-hidden="true"></i></span></li><li class="active" ><span>حساب کاربری من</span></li></ul></div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="row">
+            <div id="contents" role="main" class="col-lg-12 col-md-12 col-sm-12">
+                <div class="post-9 page type-page status-publish hentry">
+                    <div class="entry-content">
+                        <div class="entry-summary">
+                            <div class="woocommerce">
+
+                                <div class="woocommerce-notices-wrapper"></div>
+
+                                <div class="row" id="customer_login" style="background-color: #fff;margin: 0;">
+
+                                    <div class="col-lg-6 col-md-6" style="padding: 20px 50px;">
+
+
+                                        <h2 style="text-align: center;font-size: 18px;">عضو سایت هستید ؟</h2>
+                                        <p style="text-align: center;">اگر عضو سایت هستید برای تکمیل فرایند خرید باید وارد حساب کاربری خود شوید.</p>
+                                        <form class="woocommerce-form woocommerce-form-login login" method="post">
+
+
+                                            <p class="woocommerce-form-row woocommerce-form-row--wide form-row form-row-wide">
+                                                <label for="username">نام کاربری یا آدرس ایمیل&nbsp;<span class="required">*</span></label>
+                                                <input type="text" class="woocommerce-Input woocommerce-Input--text input-text" name="username" id="username" autocomplete="username" value="" />			</p>
+                                            <p class="woocommerce-form-row woocommerce-form-row--wide form-row form-row-wide">
+                                                <label for="password">گذرواژه&nbsp;<span class="required">*</span></label>
+                                                <input class="woocommerce-Input woocommerce-Input--text input-text" type="password" name="password" id="password" autocomplete="current-password" />
+                                            </p>
+
+
+                                            <p class="form-row">
+                                                <input type="hidden" id="woocommerce-login-nonce" name="woocommerce-login-nonce" value="4ee8a28d04" /><input type="hidden" name="_wp_http_referer" value="/my-account/" />				<button type="submit" class="woocommerce-Button-submit" name="login" value="ورود">ورود</button>
+                                                <label class="woocommerce-form__label woocommerce-form__label-for-checkbox inline">
+                                                    <input class="woocommerce-form__input woocommerce-form__input-checkbox" name="rememberme" type="checkbox" id="rememberme" value="forever" /> <span>مرا به خاطر بسپار</span>
+                                                </label>
+                                            </p>
+                                            <p class="woocommerce-LostPassword lost_password">
+                                                <a href="http://zanbil.avin-tarh.ir/my-account/lost-password/">گذرواژه خود را فراموش کرده اید؟</a>
+                                            </p>
+
+
+                                        </form>
+
+
+                                    </div>
+
+                                    <div class="col-lg-6 col-md-6" style="padding: 20px 50px;">
+
+                                        <h2 style="text-align: center;font-size: 18px;">تازه وارد هستید؟</h2>
+                                        <p style="text-align: center;">با عضویت در سایت وضعیت سفارش خود را پیگیری نموده و سوابق خریدتان را مشاهده کنید.</p>
+                                        <form method="post" class="woocommerce-form woocommerce-form-register register"  >
+
+
+
+                                            <p class="woocommerce-form-row woocommerce-form-row--wide form-row form-row-wide">
+                                                <label for="reg_email">آدرس ایمیل&nbsp;<span class="required">*</span></label>
+                                                <input type="email" class="woocommerce-Input woocommerce-Input--text input-text" name="email" id="reg_email" autocomplete="email" value="" />			</p>
+
+
+                                            <p class="woocommerce-form-row woocommerce-form-row--wide form-row form-row-wide">
+                                                <label for="reg_password">گذرواژه&nbsp;<span class="required">*</span></label>
+                                                <input type="password" class="woocommerce-Input woocommerce-Input--text input-text" name="password" id="reg_password" autocomplete="new-password" />
+                                            </p>
+
+
+
+                                            <div class="show_if_seller" style="display:none">
+
+                                                <div class="split-row form-row-wide">
+                                                    <p class="form-row form-group">
+                                                        <label for="first-name">نام <span class="required">*</span></label>
+                                                        <input type="text" class="input-text form-control" name="fname" id="first-name" value="" required="required" />
+                                                    </p>
+
+                                                    <p class="form-row form-group">
+                                                        <label for="last-name">نام خانوادگی <span class="required">*</span></label>
+                                                        <input type="text" class="input-text form-control" name="lname" id="last-name" value="" required="required" />
+                                                    </p>
+                                                </div>
+
+                                                <p class="form-row form-group form-row-wide">
+                                                    <label for="company-name">نام فروشگاه <span class="required">*</span></label>
+                                                    <input type="text" class="input-text form-control" name="shopname" id="company-name" value="" required="required" />
+                                                </p>
+
+                                                <p class="form-row form-group form-row-wide">
+                                                    <label for="seller-url" class="pull-left">آدرس فروشگاه <span class="required">*</span></label>
+                                                    <strong id="url-alart-mgs" class="pull-right"></strong>
+                                                    <input type="text" class="input-text form-control" name="shopurl" id="seller-url" value="" required="required" />
+                                                    <small>http://zanbil.avin-tarh.ir/store/<strong id="url-alart"></strong></small>
+                                                </p>
+
+                                                <p class="form-row form-group form-row-wide">
+                                                    <label for="shop-phone">شماره تلفن<span class="required">*</span></label>
+                                                    <input type="text" class="input-text form-control" name="phone" id="shop-phone" value="" required="required" />
+                                                </p>
+                                                <p class="form-row form-group form-row-wide">
+                                                    <input class="tc_check_box" type="checkbox" id="tc_agree" name="tc_agree" required="required">
+                                                    <label style="display: inline" for="tc_agree"><a target="_blank" href="http://zanbil.avin-tarh.ir/my-account/">قوانین و شرایط</a> را خوانده و قبول دارم.</label>
+                                                </p>
+
+                                            </div>
+
+
+                                            <p class="form-row form-group user-role">
+                                                <label class="radio">
+                                                    <input type="radio" name="role" value="customer" checked='checked'>
+                                                    مشتری هستم    </label>
+
+                                                <label class="radio">
+                                                    <input type="radio" name="role" value="seller">
+                                                    فروشنده هستم    </label>
+                                            </p>
+                                            <div class="woocommerce-privacy-policy-text"></div>
+                                            <p class="woocommerce-FormRow form-row">
+                                                <input type="hidden" id="woocommerce-register-nonce" name="woocommerce-register-nonce" value="e665345f38" /><input type="hidden" name="_wp_http_referer" value="/my-account/" />				<button type="submit" class="woocommerce-Button-reg" name="register" value="عضویت">عضویت</button>
+                                            </p>
+
+
+                                        </form>
+
+                                    </div>
+
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="clearfix"></div>
+
+
+
+                    <script type="text/javascript">
+                        function submitform(){
+                            if(document.commentform.comment.value=='' || document.commentform.author.value=='' || document.commentform.email.value==''){
+                                alert('Please fill the required field.');
+                                return false;
+                            } else return true;
+                        }
+                    </script>			</div>
+            </div>
+        </div>
+
+    </div>
+    <div id="above-footer" class="above-footer">
+        <div class="container">
+            <div class="row">
+
+                <div class="widget_text widget-2 widget-last widget custom_html-2 widget_custom_html"><div class="widget_text widget-inner"><div class="textwidget custom-html-widget"><div class="footer-contact">
+                    <div class="text">
+                        <p>
+                            با خدمـات ۲۴ ساعته فــروشگاه زنـــبیل ، در ۷ روز هـــفته هـــمراه ما باشید :
+                        </p>
+                    </div>
+                    <div class="number">
+                        <p><span>021</span> 554489   |   <span>021</span> 45682</p>
+                    </div>
+                </div></div></div></div>
+            </div>
+        </div>
+    </div>
+
+    <footer id="footer" class="footer default theme-clearfix" >
+        <div class="footer-top">
+            <div class="sidebar-footer">
+                <div class="container">
+                    <div class="row">
+
+                        <div class="col-lg-2 col-md-2 col-sm-6 col-xs-12 widget nav_menu-2 widget_nav_menu"><div class="widget-inner"><h3><span>امکانات ویـژه</span></h3><ul id="menu-%d8%a7%d9%85%da%a9%d8%a7%d9%86%d8%a7%d8%aa-%d9%88%db%8c%da%98%d9%87" class="menu"><li class="menu-%d8%b5%d9%81%d8%ad%d9%87-%d9%81%d8%b1%d9%88%d8%b4-%d9%88%db%8c%da%98%d9%87"><a class="item-link" href="#"><span class="menu-title">صفحه فروش ویژه</span></a></li>
+                            <li class="menu-%d9%84%db%8c%d8%b3%d8%aa-%d9%82%db%8c%d9%85%d8%aa"><a class="item-link" href="#"><span class="menu-title">لیست قیمت</span></a></li>
+                            <li class="menu-%d8%b5%d9%81%d8%ad%d9%87-%d8%af%d8%b3%d8%aa%d9%87-%d8%a8%d9%86%d8%af%db%8c"><a class="item-link" href="#"><span class="menu-title">صفحه دسته بندی</span></a></li>
+                            <li class="menu-%d9%84%db%8c%d8%b3%d8%aa-%d8%a7%d9%84%d9%85%d8%a7%d9%86-%d9%87%d8%a7"><a class="item-link" href="#"><span class="menu-title">لیست المان ها</span></a></li>
+                        </ul></div></div><div class="col-lg-2 col-md-2 col-sm-6 col-xs-12 widget nav_menu-3 widget_nav_menu"><div class="widget-inner"><h3><span>خـدمات مـشتریان</span></h3><ul id="menu-%d8%ae%d8%af%d9%85%d8%a7%d8%aa-%d9%85%d8%b4%d8%aa%d8%b1%db%8c%d8%a7%d9%86" class="menu"><li class="menu-%d8%b3%d9%88%d8%a7%d9%84%d8%a7%d8%aa-%d9%85%d8%aa%d8%af%d8%a7%d9%88%d9%84"><a class="item-link" href="#"><span class="menu-title">سوالات متداول</span></a></li>
+                        <li class="menu-%d8%a2%d9%85%d9%88%d8%b2%d8%b4-%d8%ae%d8%b1%db%8c%d8%af"><a class="item-link" href="#"><span class="menu-title">آموزش خرید</span></a></li>
+                        <li class="menu-%d8%af%d8%b1%d8%a8%d8%a7%d8%b1%d9%87-%d9%85%d8%a7"><a class="item-link" href="#"><span class="menu-title">درباره ما</span></a></li>
+                        <li class="menu-%d8%aa%d9%85%d8%a7%d8%b3-%d8%a8%d8%a7-%d9%85%d8%a7"><a class="item-link" href="#"><span class="menu-title">تماس با ما</span></a></li>
+                    </ul></div></div><div class="col-lg-2 col-md-2 col-sm-6 col-xs-12 widget nav_menu-4 widget_nav_menu"><div class="widget-inner"><h3><span>دسـترسی سریع</span></h3><ul id="menu-%d8%af%d8%b3%d8%aa%d8%b1%d8%b3%db%8c-%d8%b3%d8%b1%db%8c%d8%b9" class="menu"><li class="menu-%d9%88%d8%a8%d9%84%d8%a7%da%af"><a class="item-link" href="#"><span class="menu-title">وبلاگ</span></a></li>
+                        <li class="active menu-%d8%ad%d8%b3%d8%a7%d8%a8-%da%a9%d8%a7%d8%b1%d8%a8%d8%b1%db%8c-%d9%85%d9%86"><a class="item-link" href="http://zanbil.avin-tarh.ir/my-account/"><span class="menu-title">حساب کاربری من</span></a></li>
+                        <li class="menu-%d8%b5%d9%81%d8%ad%d9%87-%d9%84%d9%86%d8%af%db%8c%d9%86%da%af"><a class="item-link" href="#"><span class="menu-title">صفحه لندینگ</span></a></li>
+                        <li class="menu-%d9%81%d8%b1%d9%88%d8%b4%da%af%d8%a7%d9%87"><a class="item-link" href="#"><span class="menu-title">فروشگاه</span></a></li>
+                    </ul></div></div><div class="widget_text col-lg-6 col-md-6 col-sm-12 col-xs-12 widget custom_html-3 widget_custom_html"><div class="widget_text widget-inner"><h3><span>عضویت در خبرنامه</span></h3><div class="textwidget custom-html-widget"><p>
+                        با عضویت در خبرنامه از جدیدترین تخفیف ها و کالا ها مطلع شوید.
+                    </p>
+                        <div role="form" class="wpcf7" id="wpcf7-f100-o1" lang="fa-IR" dir="rtl">
+                            <div class="screen-reader-response"></div>
+                            <form action="/my-account/#wpcf7-f100-o1" method="post" class="wpcf7-form" novalidate="novalidate">
+                                <div style="display: none;">
+                                    <input type="hidden" name="_wpcf7" value="100" />
+                                    <input type="hidden" name="_wpcf7_version" value="5.0.4" />
+                                    <input type="hidden" name="_wpcf7_locale" value="fa_IR" />
+                                    <input type="hidden" name="_wpcf7_unit_tag" value="wpcf7-f100-o1" />
+                                    <input type="hidden" name="_wpcf7_container_post" value="0" />
+                                </div>
+                                <p><span class="wpcf7-form-control-wrap email-822"><input type="email" name="email-822" value="" size="40" class="wpcf7-form-control wpcf7-text wpcf7-email wpcf7-validates-as-required wpcf7-validates-as-email khabarname" aria-required="true" aria-invalid="false" placeholder="آدرس ایمیل خود را وارد کنید ..." /></span><input type="submit" value="عضویت در خبرنامه" class="wpcf7-form-control wpcf7-submit khabarname-sub" /></p>
+                                <div class="wpcf7-response-output wpcf7-display-none"></div></form></div>
+                        <div class="new-social3">
+                            <a href="#" class="social telegram"></a>
+                            <a href="#" class="social instagram"></a>
+                            <a href="#" class="social aparat"></a>
+                            <a href="#" class="app ios"></a>
+                            <a href="#" class="app android"></a>
+                        </div></div></div></div><div class="col-lg-3 col-md-3 col-sm-6 widget media_image-2 widget_media_image"><div class="widget-inner"><img width="306" height="222" src="http://zanbil.avin-tarh.ir/wp-content/uploads/2018/10/namad3.jpg" class="image wp-image-101  attachment-full size-full" alt="" style="max-width: 100%; height: auto;" srcset="http://zanbil.avin-tarh.ir/wp-content/uploads/2018/10/namad3.jpg 306w, http://zanbil.avin-tarh.ir/wp-content/uploads/2018/10/namad3-300x218.jpg 300w" sizes="(max-width: 306px) 100vw, 306px" /></div></div><div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 widget text-2 widget_text"><div class="widget-inner"><h3><span>زنــبـیــل ، کاملترین قالب فروشگاهی ووکامرس</span></h3>			<div class="textwidget"><p style="text-align: justify;">زنبیل به عنوان یکی از قدیمی‌ترین فروشگاه های اینترنتی با بیش از یک دهه تجربه، با پایبندی به سه اصل کلیدی، پرداخت در محل، 7 روز ضمانت بازگشت کالا و تضمین اصل‌بودن کالا، موفق شده تا همگام با فروشگاه‌های معتبر جهان، به بزرگ‌ترین فروشگاه اینترنتی ایران تبدیل شود. به محض ورود به زنبیل با یک سایت پر از کالا رو به رو می‌شوید! هر آنچه که نیاز دارید و به ذهن شما خطور می‌کند در اینجا پیدا خواهید کرد. زنبیل مثل یک ویترین پر زرق و برق است که با انواع و اقسام برندهایی نظیر سامسونگ (Samsung)، ال جی (LG)، اپل (Apple)، نوکیا (Nokia)، شیائومی (Xiaomi)، هواوی (Huawei) و همچنین محصولاتی که هر فرد در زندگی شخصی، تحصیلی و کاری خود به آنها احتیاج پیدا می‌کند، چیده شده است.</p>
+                    </div>
+                    </div></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="copyright theme-clearfix clearfix">
+            <div class="copyright-text">
+                <div class="container">
+                    <div class="copyright-footer pull-left">
+                        <p>تمامی حقوق برای <a href="http://avin-tarh.ir">گروه طراحی آوین</a> محفوظ است.</p>
+                    </div>
+                    <div class="payment">
+                        <a class="payment1" title="پشتیبانی از تمام درگاه های عضو شتاب" href="#"></a>
+                    </div>
+                    <a id="zanbil-totop" href="#" ></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+</div>
+<div class="fixed-icon">
+    <div class="ordertrack-ico">
+        <a href="http://zanbil.avin-tarh.ir/ps/" target="_blank"><span>پیگیری سفارش</span><img src="data:image/svg+xml;utf8;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iaXNvLTg4NTktMSI/Pgo8IS0tIEdlbmVyYXRvcjogQWRvYmUgSWxsdXN0cmF0b3IgMTkuMS4wLCBTVkcgRXhwb3J0IFBsdWctSW4gLiBTVkcgVmVyc2lvbjogNi4wMCBCdWlsZCAwKSAgLS0+CjxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgdmVyc2lvbj0iMS4xIiBpZD0iQ2FwYV8xIiB4PSIwcHgiIHk9IjBweCIgdmlld0JveD0iMCAwIDQ3My44IDQ3My44IiBzdHlsZT0iZW5hYmxlLWJhY2tncm91bmQ6bmV3IDAgMCA0NzMuOCA0NzMuODsiIHhtbDpzcGFjZT0icHJlc2VydmUiIHdpZHRoPSIyNHB4IiBoZWlnaHQ9IjI0cHgiPgo8Zz4KCTxwYXRoIGQ9Ik00NTQuOCwxMTEuN2MwLTEuOC0wLjQtMy42LTEuMi01LjNjLTEuNi0zLjQtNC43LTUuNy04LjEtNi40TDI0MS44LDEuMmMtMy4zLTEuNi03LjItMS42LTEwLjUsMEwyNS42LDEwMC45ICAgYy00LDEuOS02LjYsNS45LTYuOCwxMC40djAuMWMwLDAuMSwwLDAuMiwwLDAuNFYzNjJjMCw0LjYsMi42LDguOCw2LjgsMTAuOGwyMDUuNyw5OS43YzAuMSwwLDAuMSwwLDAuMiwwLjEgICBjMC4zLDAuMSwwLjYsMC4yLDAuOSwwLjRjMC4xLDAsMC4yLDAuMSwwLjQsMC4xYzAuMywwLjEsMC42LDAuMiwwLjksMC4zYzAuMSwwLDAuMiwwLjEsMC4zLDAuMWMwLjMsMC4xLDAuNywwLjEsMSwwLjIgICBjMC4xLDAsMC4yLDAsMC4zLDBjMC40LDAsMC45LDAuMSwxLjMsMC4xYzAuNCwwLDAuOSwwLDEuMy0wLjFjMC4xLDAsMC4yLDAsMC4zLDBjMC4zLDAsMC43LTAuMSwxLTAuMmMwLjEsMCwwLjItMC4xLDAuMy0wLjEgICBjMC4zLTAuMSwwLjYtMC4yLDAuOS0wLjNjMC4xLDAsMC4yLTAuMSwwLjQtMC4xYzAuMy0wLjEsMC42LTAuMiwwLjktMC40YzAuMSwwLDAuMSwwLDAuMi0wLjFsMjA2LjMtMTAwYzQuMS0yLDYuOC02LjIsNi44LTEwLjggICBWMTEyQzQ1NC44LDExMS45LDQ1NC44LDExMS44LDQ1NC44LDExMS43eiBNMjM2LjUsMjUuM2wxNzguNCw4Ni41bC02NS43LDMxLjlMMTcwLjgsNTcuMkwyMzYuNSwyNS4zeiBNMjM2LjUsMTk4LjNMNTguMSwxMTEuOCAgIGw4NS4yLTQxLjNMMzIxLjcsMTU3TDIzNi41LDE5OC4zeiBNNDIuOCwxMzEuMWwxODEuNyw4OC4xdjIyMy4zTDQyLjgsMzU0LjRWMTMxLjF6IE0yNDguNSw0NDIuNVYyMTkuMmw4NS4zLTQxLjR2NTguNCAgIGMwLDYuNiw1LjQsMTIsMTIsMTJzMTItNS40LDEyLTEydi03MC4xbDczLTM1LjRWMzU0TDI0OC41LDQ0Mi41eiIgZmlsbD0iIzQ0NDQ0NCIvPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+Cjwvc3ZnPgo=" /></a>
+    </div>
+    <div class="compare-ico">
+
+        <a href="http://zanbil.avin-tarh.ir/compare/" target="_blank"><span>لیست مقایسه</span><img src="data:image/svg+xml;utf8;base64,PD94bWwgdmVyc2lvbj0iMS4wIj8+CjxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiBoZWlnaHQ9IjI0cHgiIHZpZXdCb3g9IjAgLTI3IDQwMy4yNDA0MyA0MDMiIHdpZHRoPSIyNHB4Ij48cGF0aCBkPSJtMzI3Ljc4NTE1NiAxMzQuNTQyOTY5YzMuOTIxODc1IDMuODkwNjI1IDEwLjI1MzkwNiAzLjg2MzI4MSAxNC4xNDQ1MzItLjA1ODU5NGw1OC40MTAxNTYtNTguOTEwMTU2YzMuODc4OTA2LTMuOTEwMTU3IDMuODY3MTg3LTEwLjIxODc1LS4wMjczNDQtMTQuMTA5Mzc1bC01OC40MTQwNjItNTguNDE0MDYzYy0zLjkwNjI1LTMuOTA2MjUtMTAuMjM4MjgyLTMuOTA2MjUtMTQuMTQwNjI2IDAtMy45MDYyNSAzLjkwMjM0NC0zLjkwNjI1IDEwLjIzNDM3NSAwIDE0LjE0MDYyNWw0MS4zMzk4NDQgNDEuMzQzNzVoLTYwLjA2NjQwNmMtMjguMjA3MDMxLjA3MDMxMy01NC43Njk1MzEgMTMuMzAwNzgyLTcxLjgyNDIxOSAzNS43Njk1MzJsLTQ4LjQ4ODI4MSA2NC4yMjI2NTYtNDguNDg4MjgxLTY0LjIyMjY1NmMtMTcuMDU0Njg4LTIyLjQ2ODc1LTQzLjYxNzE4OC0zNS42OTkyMTktNzEuODI4MTI1LTM1Ljc2OTUzMmgtNTguNDAyMzQ0Yy01LjUyMzQzOCAwLTEwIDQuNDc2NTYzLTEwIDEwIDAgNS41MjM0MzggNC40NzY1NjIgMTAgMTAgMTBoNTguMzk4NDM4YzIxLjk0MTQwNi4wNTQ2ODggNDIuNjAxNTYyIDEwLjM0Mzc1IDU1Ljg2NzE4NyAyNy44MjAzMTNsNTEuOTIxODc1IDY4Ljc2NTYyNS01MS45MTc5NjkgNjguNzY1NjI1Yy0xMy4yNjU2MjUgMTcuNDc2NTYyLTMzLjkyNTc4MSAyNy43NjU2MjUtNTUuODY3MTg3IDI3LjgyMDMxMmgtNTguNDAyMzQ0Yy01LjUyMzQzOCAwLTEwIDQuNDc2NTYzLTEwIDEwIDAgNS41MjM0MzggNC40NzY1NjIgMTAgMTAgMTBoNTguMzk4NDM4YzI4LjIxMDkzNy0uMDcwMzEyIDU0Ljc3MzQzNy0xMy4zMDA3ODEgNzEuODI4MTI0LTM1Ljc2OTUzMWw0OC40OTIxODgtNjQuMjE4NzUgNDguNDg4MjgxIDY0LjIyMjY1NmMxNy4wNTQ2ODggMjIuNDY4NzUgNDMuNjE3MTg4IDM1LjY5OTIxOSA3MS44MjgxMjUgMzUuNzY5NTMyaDYwLjA2NjQwNmwtNDEuMzQ3NjU2IDQxLjMzOTg0M2MtMi41NDI5NjggMi41MjM0MzgtMy41NDI5NjggNi4yMTQ4NDQtMi42MjEwOTQgOS42NzU3ODEuOTIxODc2IDMuNDYwOTM4IDMuNjI1IDYuMTY3OTY5IDcuMDg5ODQ0IDcuMDg5ODQ0IDMuNDYwOTM4LjkyMTg3NSA3LjE1MjM0NC0uMDc4MTI1IDkuNjc1NzgyLTIuNjI1bDU4LjQxMDE1Ni01OC40MTQwNjJjMy44OTQ1MzEtMy44OTQ1MzIgMy45MDYyNS0xMC4xOTkyMTkuMDMxMjUtMTQuMTA5Mzc1bC01OC40MTQwNjMtNTguOTEwMTU3Yy0yLjUwMzkwNi0yLjU4NTkzNy02LjIwNzAzMS0zLjYyODkwNi05LjY5MTQwNi0yLjcyMjY1Ni0zLjQ4ODI4MS45MDIzNDQtNi4yMTg3NSAzLjYwOTM3NS03LjE1MjM0NCA3LjA4OTg0NC0uOTMzNTkzIDMuNDc2NTYyLjA3ODEyNSA3LjE4NzUgMi42NDQ1MzEgOS43MTQ4NDRsNDEuNTE1NjI2IDQxLjg2NzE4N2gtNjAuMjEwOTM4Yy0yMS45NDE0MDYtLjA1NDY4Ny00Mi42MDE1NjItMTAuMzQzNzUtNTUuODY3MTg4LTI3LjgyMDMxMmwtNTEuOTE3OTY4LTY4Ljc2NTYyNSA1MS45MTc5NjgtNjguNzY1NjI1YzEzLjI2NTYyNi0xNy40NzY1NjMgMzMuOTI1NzgyLTI3Ljc2NTYyNSA1NS44NjcxODgtMjcuODIwMzEzaDYwLjIwNzAzMWwtNDEuNTExNzE5IDQxLjg2NzE4OGMtMy44OTA2MjQgMy45MjE4NzUtMy44NjMyODEgMTAuMjUzOTA2LjA1ODU5NCAxNC4xNDA2MjV6bTAgMCIgZmlsbD0iIzQ0NDQ0NCIvPjwvc3ZnPgo=" /></a>
+    </div>
+    <div class="hotoffers-ico"><a href="http://zanbil.avin-tarh.ir/%d9%be%db%8c%d8%b4%d9%86%d9%87%d8%a7%d8%af%d8%a7%d8%aa-%d9%88%db%8c%da%98%d9%87/"><span>شگفت انگیز ها</span><img src="data:image/svg+xml;utf8;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iaXNvLTg4NTktMSI/Pgo8IS0tIEdlbmVyYXRvcjogQWRvYmUgSWxsdXN0cmF0b3IgMTguMC4wLCBTVkcgRXhwb3J0IFBsdWctSW4gLiBTVkcgVmVyc2lvbjogNi4wMCBCdWlsZCAwKSAgLS0+CjwhRE9DVFlQRSBzdmcgUFVCTElDICItLy9XM0MvL0RURCBTVkcgMS4xLy9FTiIgImh0dHA6Ly93d3cudzMub3JnL0dyYXBoaWNzL1NWRy8xLjEvRFREL3N2ZzExLmR0ZCI+CjxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgdmVyc2lvbj0iMS4xIiBpZD0iQ2FwYV8xIiB4PSIwcHgiIHk9IjBweCIgdmlld0JveD0iMCAwIDI0Ni45ODkgMjQ2Ljk4OSIgc3R5bGU9ImVuYWJsZS1iYWNrZ3JvdW5kOm5ldyAwIDAgMjQ2Ljk4OSAyNDYuOTg5OyIgeG1sOnNwYWNlPSJwcmVzZXJ2ZSIgd2lkdGg9IjI0cHgiIGhlaWdodD0iMjRweCI+CjxwYXRoIGQ9Ik0yNDYuMDM4LDgzLjk1NWwtMzkuNDI0LTcwLjY2NGMtMS4zMjUtMi4zNzQtMy44MzEtMy44NDYtNi41NS0zLjg0Nkg0Ni45M2MtMi43MTksMC01LjIyNSwxLjQ3MS02LjU1LDMuODQ2TDAuOTUxLDgzLjk1NSAgYy0xLjQ5NywyLjY4My0xLjIwNiw2LjAwOCwwLjczNCw4LjM5MWwxMTYuMDAyLDE0Mi40MzJjMC4wMzcsMC4wNDYsMC4wOCwwLjA4NSwwLjExOCwwLjEzYzAuMTIsMC4xNDEsMC4yNDQsMC4yNzgsMC4zNzUsMC40MSAgYzAuMDE1LDAuMDE1LDAuMDI4LDAuMDMzLDAuMDQzLDAuMDQ4YzAuMDM0LDAuMDMzLDAuMDY5LDAuMDY0LDAuMTA0LDAuMDk2YzAuMDEyLDAuMDEyLDAuMDI1LDAuMDIxLDAuMDM3LDAuMDMzICBjMC4xMzMsMC4xMjUsMC4yNywwLjI0NSwwLjQxMiwwLjM2MWMwLjA2NSwwLjA1MywwLjEzMSwwLjEwNiwwLjE5OCwwLjE1N2MwLjE0NSwwLjExLDAuMjk1LDAuMjEzLDAuNDQ4LDAuMzEzICBjMC4wNzIsMC4wNDcsMC4xNDMsMC4wOTQsMC4yMTYsMC4xMzljMC4xMjksMC4wNzcsMC4yNjMsMC4xNDgsMC4zOTcsMC4yMTljMC4wNTUsMC4wMjgsMC4xMDgsMC4wNTksMC4xNjQsMC4wODYgIGMwLjA1MSwwLjAyNSwwLjEwMSwwLjA1LDAuMTUyLDAuMDc0YzAuMTQ5LDAuMDY5LDAuMzAzLDAuMTI4LDAuNDU5LDAuMTg4YzAuMDk3LDAuMDM4LDAuMTkyLDAuMDc5LDAuMjkxLDAuMTEzICBjMC4wMTksMC4wMDYsMC4wMzUsMC4wMTUsMC4wNTQsMC4wMjFjMC4wMDcsMC4wMDIsMC4wMTQsMC4wMDMsMC4wMjEsMC4wMDVjMC4wNjYsMC4wMjIsMC4xMzcsMC4wMzQsMC4yMDUsMC4wNTQgIGMwLjI1MywwLjA3NSwwLjUxLDAuMTM2LDAuNzcsMC4xODRjMC4xMDgsMC4wMiwwLjIxNSwwLjA0LDAuMzI0LDAuMDU1YzAuMzA5LDAuMDQzLDAuNjIyLDAuMDcsMC45MzgsMC4wNzQgIGMwLjAyOSwwLDAuMDU4LDAuMDA3LDAuMDg4LDAuMDA3aDAuMDAxaDAuMDAxYzAuMDMsMCwwLjA1OS0wLjAwNywwLjA4OC0wLjAwN2MwLjMxNy0wLjAwNCwwLjYzLTAuMDMxLDAuOTM5LTAuMDc0ICBjMC4xMDgtMC4wMTUsMC4yMTQtMC4wMzUsMC4zMjEtMC4wNTRjMC4yNjMtMC4wNDgsMC41MjItMC4xMSwwLjc3Ni0wLjE4NmMwLjA2NS0wLjAxOSwwLjEzMy0wLjAzMSwwLjE5OC0wLjA1MiAgYzAuMDA4LTAuMDAzLDAuMDE2LTAuMDAzLDAuMDIzLTAuMDA2YzAuMDItMC4wMDYsMC4wMzYtMC4wMTUsMC4wNTUtMC4wMjJjMC4wOTgtMC4wMzMsMC4xOTEtMC4wNzQsMC4yODctMC4xMSAgYzAuMTU2LTAuMDYsMC4zMTItMC4xMiwwLjQ2Mi0wLjE4OWMwLjA1Mi0wLjAyNCwwLjEwNC0wLjA1LDAuMTU1LTAuMDc1YzAuMDUzLTAuMDI2LDAuMTA0LTAuMDU2LDAuMTU1LTAuMDgyICBjMC4xMzYtMC4wNzEsMC4yNzEtMC4xNDMsMC40MDEtMC4yMjFjMC4wNzQtMC4wNDUsMC4xNDYtMC4wOTMsMC4yMi0wLjE0MWMwLjE1Mi0wLjA5OSwwLjMwMi0wLjIwMiwwLjQ0NC0wLjMxMSAgYzAuMDY4LTAuMDUxLDAuMTM0LTAuMTA0LDAuMTk5LTAuMTU4YzAuMTQ0LTAuMTE2LDAuMjgxLTAuMjM3LDAuNDE0LTAuMzYyYzAuMDEzLTAuMDEzLDAuMDI3LTAuMDIzLDAuMDQtMC4wMzUgIGMwLjAzLTAuMDI5LDAuMDYyLTAuMDU2LDAuMDkyLTAuMDg2YzAuMDE3LTAuMDE3LDAuMDMyLTAuMDM2LDAuMDQ5LTAuMDUzYzAuMTM0LTAuMTM1LDAuMjYxLTAuMjc2LDAuMzgzLTAuNDIgIGMwLjAzNi0wLjA0MiwwLjA3Ni0wLjA3OSwwLjExMS0wLjEyMkwyNDUuMzA0LDkyLjM0NkMyNDcuMjQ0LDg5Ljk2MywyNDcuNTM1LDg2LjYzOCwyNDYuMDM4LDgzLjk1NXogTTEzOC4zLDI0LjQ0NmwyMS4yNDIsNTUuNjY0ICBIODcuNDU3bDIxLjI0OS01NS42NjRIMTM4LjN6IE0xNjAuMDY1LDk1LjExbC0zNi41NjMsMTEwLjk2N0w4Ni45MzUsOTUuMTFIMTYwLjA2NXogTTcxLjE0Miw5NS4xMWwzMi41MjQsOTguNjk5TDIzLjI4Miw5NS4xMSAgSDcxLjE0MnogTTE3NS44NTgsOTUuMTFoNDcuODUxbC04MC4zNyw5OC42OTZMMTc1Ljg1OCw5NS4xMXogTTIyNi43MTUsODAuMTFoLTUxLjExOGwtMjEuMjQyLTU1LjY2NGg0MS4zMDZMMjI2LjcxNSw4MC4xMXogICBNNTEuMzMzLDI0LjQ0Nmg0MS4zMTdMNzEuNDAyLDgwLjExSDIwLjI3NEw1MS4zMzMsMjQuNDQ2eiIgZmlsbD0iIzQ0NDQ0NCIvPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8L3N2Zz4K" /></a></div>
+</div>
+<script>
+    jQuery(document).ready(function($){
+        $('.quantity').on('click', '.plus', function(e) {
+            $input = $(this).prev('input.qty');
+            var val = parseInt($input.val());
+            var step = $input.attr('step');
+            step = 'undefined' !== typeof(step) ? parseInt(step) : 1;
+            $input.val( val + step ).change();
+        });
+        $('.quantity').on('click', '.minus',
+            function(e) {
+                $input = $(this).next('input.qty');
+                var val = parseInt($input.val());
+                var step = $input.attr('step');
+                step = 'undefined' !== typeof(step) ? parseInt(step) : 1;
+                if (val > 0) {
+                    $input.val( val - step ).change();
+                }
+            });
+    });
+</script>
+<div id="fb-root"></div>	<script type="text/javascript">
+    var c = document.body.className;
+    c = c.replace(/woocommerce-no-js/, 'woocommerce-js');
+    document.body.className = c;
+</script>
+<link rel="stylesheet" href="http://zanbil.avin-tarh.ir/wp-content/plugins/js_composer/assets/css/js_composer.min.css?ver=1540630692">
+<link rel="stylesheet" href="http://zanbil.avin-tarh.ir/wp-content/plugins/js_composer/assets/lib/bower/font-awesome/css/font-awesome.min.css?ver=1516067772">
+<script type='text/javascript'>
+    /* <![CDATA[ */
+    var wpcf7 = {"apiSettings":{"root":"http:\/\/zanbil.avin-tarh.ir\/wp-json\/contact-form-7\/v1","namespace":"contact-form-7\/v1"},"recaptcha":{"messages":{"empty":"\u0644\u0637\u0641\u0627 \u062a\u0627\u06cc\u06cc\u062f \u0646\u0645\u0627\u06cc\u06cc\u062f \u06a9\u0647 \u0634\u0645\u0627 \u06cc\u06a9 \u0631\u0628\u0627\u062a \u0646\u06cc\u0633\u062a\u06cc\u062f."}},"cached":"1"};
+    /* ]]> */
+</script>
+<script type='text/javascript' src='http://zanbil.avin-tarh.ir/wp-content/plugins/contact-form-7/includes/js/scripts.js?ver=1539258101'></script>
+<script type='text/javascript' src='http://zanbil.avin-tarh.ir/wp-content/plugins/woocommerce/assets/js/selectWoo/selectWoo.full.min.js?ver=1552210295'></script>
+<script type='text/javascript'>
+    /* <![CDATA[ */
+    var pwsL10n = {"unknown":"\u0642\u062f\u0631\u062a \u0631\u0645\u0632 \u0646\u0627\u0645\u0634\u062e\u0635","short":"\u0628\u0633\u06cc\u0627\u0631 \u0633\u0633\u062a","bad":"\u0633\u0633\u062a","good":"\u0645\u062a\u0648\u0633\u0637","strong":"\u0642\u0648\u06cc","mismatch":"\u0646\u0627\u0647\u0645\u0633\u0627\u0646"};
+    /* ]]> */
+</script>
+<script type='text/javascript' src='http://zanbil.avin-tarh.ir/wp-admin/js/password-strength-meter.min.js?ver=1478151634'></script>
+<script type='text/javascript'>
+    /* <![CDATA[ */
+    var wc_password_strength_meter_params = {"min_password_strength":"3","i18n_password_error":"\u0644\u0637\u0641\u0627 \u06cc\u06a9 \u0631\u0645\u0632 \u0639\u0628\u0648\u0631 \u0642\u0648\u06cc \u0627\u06cc\u062c\u0627\u062f \u06a9\u0646\u06cc\u062f.","i18n_password_hint":"\u0631\u0627\u0647\u0646\u0645\u0627\u06cc\u06cc: \u0631\u0645\u0632 \u0628\u0627\u06cc\u062f \u062f\u0633\u062a\u06a9\u0645 \u06f7 \u062d\u0631\u0641 \u0628\u0627\u0634\u062f. \u0628\u0631\u0627\u06cc \u0642\u0648\u06cc\u200c\u062a\u0631 \u06a9\u0631\u062f\u0646 \u0622\u0646\u060c \u0627\u0632 \u062d\u0631\u0648\u0641 \u06a9\u0648\u0686\u06a9 \u0648 \u0628\u0632\u0631\u06af \u0627\u0646\u06af\u0644\u06cc\u0633\u06cc\u060c \u0627\u0639\u062f\u0627\u062f \u0648 \u0646\u0645\u0627\u062f\u0647\u0627\u06cc\u06cc \u0645\u0627\u0646\u0646\u062f ! \" \u061f $ % ^ & ) \u0627\u0633\u062a\u0641\u0627\u062f\u0647 \u06a9\u0646\u06cc\u062f."};
+    /* ]]> */
+</script>
+<script type='text/javascript' src='http://zanbil.avin-tarh.ir/wp-content/plugins/woocommerce/assets/js/frontend/password-strength-meter.min.js?ver=1552210295'></script>
+<script type='text/javascript' src='http://zanbil.avin-tarh.ir/wp-content/plugins/woocommerce/assets/js/js-cookie/js.cookie.min.js?ver=1552210295'></script>
+<script type='text/javascript'>
+    /* <![CDATA[ */
+    var woocommerce_params = {"ajax_url":"\/wp-admin\/admin-ajax.php","wc_ajax_url":"\/?wc-ajax=%%endpoint%%"};
+    /* ]]> */
+</script>
+<script type='text/javascript' src='http://zanbil.avin-tarh.ir/wp-content/plugins/woocommerce/assets/js/frontend/woocommerce.min.js?ver=1552210295'></script>
+<script type='text/javascript'>
+    /* <![CDATA[ */
+    var wc_cart_fragments_params = {"ajax_url":"\/wp-admin\/admin-ajax.php","wc_ajax_url":"\/?wc-ajax=%%endpoint%%","cart_hash_key":"wc_cart_hash_bbb3dd87aa1664f57cc17f87888ceda6","fragment_name":"wc_fragments_bbb3dd87aa1664f57cc17f87888ceda6"};
+    /* ]]> */
+</script>
+<script type='text/javascript' src='http://zanbil.avin-tarh.ir/wp-content/plugins/woocommerce/assets/js/frontend/cart-fragments.min.js?ver=1552210295'></script>
+<script type='text/javascript'>
+    /* <![CDATA[ */
+    var wait_string = {"wait":"wait..."};
+    /* ]]> */
+</script>
+<script type='text/javascript' src='http://zanbil.avin-tarh.ir/wp-content/plugins/dokan-pro/includes/modules/store-support/assets/js/script.js?ver=1551021070'></script>
+<script type='text/javascript'>
+    /* <![CDATA[ */
+    var tmWoocompare = {"ajaxurl":"http:\/\/zanbil.avin-tarh.ir\/wp-admin\/admin-ajax.php","compareText":"Add to Compare","removeText":"Remove from Compare","countFormat":"<span class=\"compare-count\">(%count%)<\/span>"};
+    /* ]]> */
+</script>
+<script type='text/javascript' src='http://zanbil.avin-tarh.ir/wp-content/plugins/tm-woocommerce-compare-wishlist/assets/js/tm-woocompare.min.js?ver=1538990084'></script>
+<script type='text/javascript'>
+    /* <![CDATA[ */
+    var tmWoowishlist = {"ajaxurl":"http:\/\/zanbil.avin-tarh.ir\/wp-admin\/admin-ajax.php","addText":"Add to Wishlist","addedText":""};
+    /* ]]> */
+</script>
+<script type='text/javascript' src='http://zanbil.avin-tarh.ir/wp-content/plugins/tm-woocommerce-compare-wishlist/assets/js/tm-woowishlist.min.js?ver=1538990084'></script>
+<script type='text/javascript'>
+    /* <![CDATA[ */
+    var jcaa = {"enable_validation":"no","enable_attr_toggle":"no"};
+    /* ]]> */
+</script>
+<script type='text/javascript' src='http://zanbil.avin-tarh.ir/wp-content/plugins/jc-woocommerce-advanced-attributes/assets/js/frontend/product.js?ver=1534871316'></script>
+<script type='text/javascript' src='http://zanbil.avin-tarh.ir/wp-includes/js/jquery/ui/core.min.js?ver=1478151634'></script>
+<script type='text/javascript' src='http://zanbil.avin-tarh.ir/wp-includes/js/jquery/ui/widget.min.js?ver=1478151634'></script>
+<script type='text/javascript' src='http://zanbil.avin-tarh.ir/wp-includes/js/jquery/ui/mouse.min.js?ver=1478151634'></script>
+<script type='text/javascript' src='http://zanbil.avin-tarh.ir/wp-includes/js/jquery/ui/sortable.min.js?ver=1478151634'></script>
+<script type='text/javascript' src='http://zanbil.avin-tarh.ir/wp-includes/js/jquery/ui/datepicker.min.js?ver=1478151634'></script>
+<script type='text/javascript'>
+    jQuery(document).ready(function(jQuery){jQuery.datepicker.setDefaults({"closeText":"\u0628\u0633\u062a\u0646","currentText":"\u0627\u0645\u0631\u0648\u0632","monthNames":["\u0698\u0627\u0646\u0648\u06cc\u0647","\u0641\u0648\u0631\u06cc\u0647","\u0645\u0627\u0631\u0633","\u0622\u0648\u0631\u06cc\u0644","\u0645\u06cc","\u0698\u0648\u0626\u0646","\u062c\u0648\u0644\u0627\u06cc","\u0622\u06af\u0648\u0633\u062a","\u0633\u067e\u062a\u0627\u0645\u0628\u0631","\u0627\u06a9\u062a\u0628\u0631","\u0646\u0648\u0627\u0645\u0628\u0631","\u062f\u0633\u0627\u0645\u0628\u0631"],"monthNamesShort":["\u0698\u0627\u0646\u0648\u06cc\u0647","\u0641\u0648\u0631\u06cc\u0647","\u0645\u0627\u0631\u0633","\u0622\u0648\u0631\u06cc\u0644","\u0645\u0647","\u0698\u0648\u0626\u0646","\u062c\u0648\u0644\u0627\u06cc","\u0622\u06af\u0648\u0633\u062a","\u0633\u067e\u062a\u0627\u0645\u0628\u0631","\u0627\u06a9\u062a\u0628\u0631","\u0646\u0648\u0627\u0645\u0628\u0631","\u062f\u0633\u0627\u0645\u0628\u0631"],"nextText":"\u0628\u0639\u062f","prevText":"\u0642\u0628\u0644\u06cc","dayNames":["\u06cc\u06a9\u0634\u0646\u0628\u0647","\u062f\u0648\u0634\u0646\u0628\u0647","\u0633\u0647 \u0634\u0646\u0628\u0647","\u0686\u0647\u0627\u0631 \u0634\u0646\u0628\u0647","\u067e\u0646\u062c\u0634\u0646\u0628\u0647","\u062c\u0645\u0639\u0647","\u0634\u0646\u0628\u0647"],"dayNamesShort":["\u06cc\u06a9","\u062f\u0648","\u0633\u0647","\u0686\u0647\u0627\u0631","\u067e\u0646\u062c","\u062c\u0645\u0639\u0647","\u0634\u0646\u0628\u0647"],"dayNamesMin":["\u06cc","\u062f","\u0633","\u0686","\u067e","\u062c","\u0634"],"dateFormat":"MM d, yy","firstDay":6,"isRTL":true});});
+</script>
+<script type='text/javascript' src='http://zanbil.avin-tarh.ir/wp-content/plugins/dokan-lite/assets/vendors/tooltips/tooltips.js?ver=1551912948'></script>
+<script type='text/javascript'>
+    /* <![CDATA[ */
+    var DokanValidateMsg = {"required":"\u0627\u06cc\u0646 \u0641\u06cc\u0644\u062f \u0627\u0644\u0632\u0627\u0645\u06cc \u0627\u0633\u062a.","remote":"\u0644\u0637\u0641\u0627 \u0627\u06cc\u0646 \u0641\u06cc\u0644\u062f \u0631\u0627 \u0627\u0635\u0644\u0627\u062d \u06a9\u0646\u06cc\u062f.","email":"\u0644\u0637\u0641\u0627 \u06cc\u06a9 \u0622\u062f\u0631\u0633 \u0627\u06cc\u0645\u06cc\u0644 \u0645\u0639\u062a\u0628\u0631 \u0648\u0627\u0631\u062f \u06a9\u0646\u06cc\u062f.","url":"\u0644\u0637\u0641\u0627 \u06cc\u06a9 \u0646\u0634\u0627\u0646\u06cc \u0648\u0628 \u0645\u0639\u062a\u0628\u0631 \u0648\u0627\u0631\u062f \u06a9\u0646\u06cc\u062f.","date":"\u0644\u0637\u0641\u0627 \u06cc\u06a9 \u062a\u0627\u0631\u06cc\u062e \u0645\u0639\u062a\u0628\u0631 \u0648\u0627\u0631\u062f \u06a9\u0646\u06cc\u062f.","dateISO":"\u0644\u0637\u0641\u0627 \u06cc\u06a9 \u062a\u0627\u0631\u06cc\u062e \u0645\u0639\u062a\u0628\u0631 (ISO) \u0631\u0627 \u0648\u0627\u0631\u062f \u06a9\u0646\u06cc\u062f.","number":"\u0644\u0637\u0641\u0627 \u06cc\u06a9 \u0634\u0645\u0627\u0631\u0647 \u062a\u0644\u0641\u0646 \u0645\u0639\u062a\u0628\u0631 \u0648\u0627\u0631\u062f \u06a9\u0646\u06cc\u062f.","digits":"\u0644\u0637\u0641\u0627 \u0641\u0642\u0637 \u0631\u0642\u0645 \u0631\u0627 \u0648\u0627\u0631\u062f \u06a9\u0646\u06cc\u062f.","creditcard":"\u0644\u0637\u0641\u0627 \u06cc\u06a9 \u0634\u0645\u0627\u0631\u0647 \u06a9\u0627\u0631\u062a \u0627\u0639\u062a\u0628\u0627\u0631\u06cc \u0645\u0639\u062a\u0628\u0631 \u0648\u0627\u0631\u062f \u06a9\u0646\u06cc\u062f.","equalTo":"\u0644\u0637\u0641\u0627 \u0645\u062c\u062f\u062f\u0627 \u0647\u0645\u0627\u0646 \u0645\u0642\u062f\u0627\u0631 \u0631\u0627 \u0648\u0627\u0631\u062f \u06a9\u0646\u06cc\u062f.","maxlength_msg":"\u0644\u0637\u0641\u0627 \u0628\u06cc\u0634 \u0627\u0632 {0} \u062d\u0631\u0641 \u0648\u0627\u0631\u062f \u06a9\u0646\u06cc\u062f.","minlength_msg":"\u0644\u0637\u0641\u0627 \u062d\u062f\u0627\u0642\u0644 {0} \u062d\u0631\u0641 \u0648\u0627\u0631\u062f \u06a9\u0646\u06cc\u062f.","rangelength_msg":"\u0644\u0637\u0641\u0627 \u06cc\u06a9 \u0645\u0642\u062f\u0627\u0631 \u0628\u06cc\u0646 {0} \u0648 {1} \u062d\u0631\u0641 \u0637\u0648\u0644\u0627\u0646\u06cc \u0648\u0627\u0631\u062f \u06a9\u0646\u06cc\u062f.","range_msg":"\u0644\u0637\u0641\u0627 \u06cc\u06a9 \u0645\u0642\u062f\u0627\u0631 \u0628\u06cc\u0646 {0} \u0648 {1} \u0631\u0627 \u0648\u0627\u0631\u062f \u06a9\u0646\u06cc\u062f.","max_msg":"\u0644\u0637\u0641\u0627 \u06cc\u06a9 \u0645\u0642\u062f\u0627\u0631 \u06a9\u0645\u062a\u0631 \u06cc\u0627 \u0628\u0631\u0627\u0628\u0631 {0} \u0631\u0627 \u0648\u0627\u0631\u062f \u06a9\u0646\u06cc\u062f.","min_msg":"\u0644\u0637\u0641\u0627 \u06cc\u06a9 \u0645\u0642\u062f\u0627\u0631 \u0628\u0632\u0631\u06af\u062a\u0631 \u06cc\u0627 \u0628\u0631\u0627\u0628\u0631 {0} \u0631\u0627 \u0648\u0627\u0631\u062f \u06a9\u0646\u06cc\u062f."};
+    /* ]]> */
+</script>
+<script type='text/javascript' src='http://zanbil.avin-tarh.ir/wp-content/plugins/dokan-lite/assets/vendors/form-validate/form-validate.js?ver=1551912948'></script>
+<script type='text/javascript' src='http://zanbil.avin-tarh.ir/wp-content/plugins/dokan-lite/assets/js/speakingurl.min.js?ver=1551912946'></script>
+<script type='text/javascript' src='http://zanbil.avin-tarh.ir/wp-content/plugins/dokan-lite/assets/vendors/i18n/jed.js?ver=1551912948'></script>
+<script type='text/javascript' src='http://zanbil.avin-tarh.ir/wp-content/plugins/dokan-lite/assets/js/vendor-registration.js?ver=1551912946'></script>
+<script type='text/javascript' src='http://zanbil.avin-tarh.ir/wp-includes/js/imgareaselect/jquery.imgareaselect.min.js?ver=1522785097'></script>
+<script type='text/javascript' src='http://zanbil.avin-tarh.ir/wp-includes/js/underscore.min.js?ver=1455722546'></script>
+<script type='text/javascript' src='http://zanbil.avin-tarh.ir/wp-includes/js/customize-base.min.js?ver=1507606493'></script>
+<script type='text/javascript' src='http://zanbil.avin-tarh.ir/wp-includes/js/backbone.min.js?ver=1466069249'></script>
+<script type='text/javascript' src='http://zanbil.avin-tarh.ir/wp-includes/js/customize-models.js?ver=1507129188'></script>
+<script type='text/javascript'>
+    /* <![CDATA[ */
+    var dokan_refund = {"mon_decimal_point":".","remove_item_notice":"\u0622\u06cc\u0627 \u0627\u0632 \u062d\u0630\u0641 \u0627\u0642\u0644\u0627\u0645 \u0627\u0646\u062a\u062e\u0627\u0628 \u0634\u062f\u0647 \u0645\u0637\u0645\u0626\u0646\u06cc\u062f\u061f \u0627\u06af\u0631 \u0642\u0628\u0644\u0627 \u0645\u0648\u062c\u0648\u062f\u06cc \u0627\u06cc\u0646 \u0642\u0644\u0645 \u0631\u0627 \u06a9\u0627\u0647\u0634 \u062f\u0627\u062f\u0647\u200c\u0627\u06cc\u062f \u06cc\u0627 \u0627\u06cc\u0646 \u0633\u0641\u0627\u0631\u0634 \u062a\u0648\u0633\u0637 \u06cc\u06a9 \u0645\u0634\u062a\u0631\u06cc \u062b\u0628\u062a \u0634\u062f\u0647\u060c \u0628\u0627\u06cc\u062f \u0628\u0647 \u0635\u0648\u0631\u062a \u062f\u0633\u062a\u06cc \u0645\u0648\u062c\u0648\u062f\u06cc \u0642\u0644\u0645 \u0631\u0627 \u0628\u0627\u0632\u06af\u0631\u062f\u0627\u0646\u06cc \u06a9\u0646\u06cc\u062f.","i18n_select_items":"\u0644\u0637\u0641\u0627 \u0627\u0642\u0644\u0627\u0645\u06cc \u0631\u0627 \u0627\u0646\u062a\u062e\u0627\u0628 \u06a9\u0646\u06cc\u062f.","i18n_do_refund":"\u0622\u06cc\u0627 \u0627\u0632 \u067e\u0631\u062f\u0627\u0632\u0634 \u0627\u06cc\u0646 \u062f\u0631\u062e\u0648\u0627\u0633\u062a \u0628\u0627\u0632\u067e\u0631\u062f\u0627\u062e\u062a \u0645\u0637\u0645\u0626\u0646\u06cc\u062f\u061f \u0627\u06cc\u0646 \u06a9\u0627\u0631 \u0642\u0627\u0628\u0644 \u0628\u0631\u06af\u0634\u062a \u0646\u0645\u06cc\u0628\u0627\u0634\u062f.","i18n_delete_refund":"\u0622\u06cc\u0627 \u0627\u0632 \u062d\u0630\u0641 \u0627\u06cc\u0646 \u0628\u0627\u0632\u067e\u0631\u062f\u0627\u062e\u062a \u0645\u0637\u0645\u0626\u0646\u06cc\u062f\u061f \u0627\u06cc\u0646 \u06a9\u0627\u0631 \u0642\u0627\u0628\u0644 \u0628\u0631\u06af\u0634\u062a \u0646\u0645\u06cc\u0628\u0627\u0634\u062f.","remove_item_meta":"\u062d\u0630\u0641 \u0627\u06cc\u0646 \u0627\u0642\u0644\u0627\u0645 \u0645\u062a\u0627\u061f","ajax_url":"http:\/\/zanbil.avin-tarh.ir\/wp-admin\/admin-ajax.php","order_item_nonce":"3bf5359a45","post_id":"","currency_format_num_decimals":"0","currency_format_symbol":"\u062a\u0648\u0645\u0627\u0646","currency_format_decimal_sep":".","currency_format_thousand_sep":",","currency_format":"%v\u00a0%s","rounding_precision":"6"};
+    /* ]]> */
+</script>
+<script type='text/javascript' src='http://zanbil.avin-tarh.ir/wp-content/plugins/dokan-lite/assets/js/dokan.js?ver=1551912946'></script>
+<script type='text/javascript' src='http://zanbil.avin-tarh.ir/wp-content/plugins/dokan-lite/assets/vendors/select2/select2.full.min.js?ver=1551912948'></script>
+<script type='text/javascript' src='http://zanbil.avin-tarh.ir/wp-content/plugins/dokan-lite/assets/vendors/magnific/jquery.magnific-popup.min.js?ver=1551912948'></script>
+<script type='text/javascript' src='http://zanbil.avin-tarh.ir/wp-content/plugins/dokan-lite/assets/js/login-form-popup.js?ver=1551912946'></script>
+<script type='text/javascript' src='http://zanbil.avin-tarh.ir/wp-content/plugins/dokan-pro/assets/js/dokan-pro.js?ver=1551021070'></script>
+<script type='text/javascript' src='http://zanbil.avin-tarh.ir/wp-content/plugins/sw_woocommerce/js/jquery.countdown.min.js?ver=1552208718'></script>
+<script type='text/javascript' src='http://zanbil.avin-tarh.ir/wp-content/themes/zanbil/js/jquery.fancybox.pack.js?ver=1539434285'></script>
+<script type='text/javascript' src='http://zanbil.avin-tarh.ir/wp-content/themes/zanbil/js/isotope.js?ver=1538987577'></script>
+<script type='text/javascript' src='http://zanbil.avin-tarh.ir/wp-content/themes/zanbil/js/bootstrap.min.js?ver=1538987577'></script>
+<script type='text/javascript' src='http://zanbil.avin-tarh.ir/wp-content/themes/zanbil/js/plugins.js?ver=1538987577'></script>
+<script type='text/javascript' src='http://zanbil.avin-tarh.ir/wp-content/themes/zanbil/js/main.js?ver=1538987577'></script>
+<script type='text/javascript' src='http://zanbil.avin-tarh.ir/wp-content/themes/zanbil/js/megamenu.js?ver=1538987577'></script>
+<script type='text/javascript'>
+    /* <![CDATA[ */
+    var ya_catajax = {"ajax_url":"http:\/\/zanbil.avin-tarh.ir\/wp-admin\/admin-ajax.php"};
+    /* ]]> */
+</script>
+<script type='text/javascript' src='http://zanbil.avin-tarh.ir/wp-content/plugins/sw_woocommerce/js/category-ajax.js?ver=1552208717'></script>
+<script type='text/javascript'>
+    /* <![CDATA[ */
+    var wc_single_product_params = {"i18n_required_rating_text":"\u062e\u0648\u0627\u0647\u0634\u0645\u0646\u062f\u06cc\u0645 \u06cc\u06a9 \u0631\u062a\u0628\u0647 \u0631\u0627 \u0627\u0646\u062a\u062e\u0627\u0628 \u06a9\u0646\u06cc\u062f","review_rating_required":"yes","flexslider":{"rtl":true,"animation":"slide","smoothHeight":true,"directionNav":false,"controlNav":"thumbnails","slideshow":false,"animationSpeed":500,"animationLoop":false,"allowOneSlide":false},"zoom_enabled":"1","zoom_options":[],"photoswipe_enabled":"1","photoswipe_options":{"shareEl":false,"closeOnScroll":false,"history":false,"hideAnimationDuration":0,"showAnimationDuration":0},"flexslider_enabled":"1"};
+    /* ]]> */
+</script>
+<script type='text/javascript' src='http://zanbil.avin-tarh.ir/wp-content/themes/zanbil/js/woocommerce/single-product.min.js?ver=1538987577'></script>
+<script type='text/javascript'>
+    /* <![CDATA[ */
+    var _wpUtilSettings = {"ajax":{"url":"\/wp-admin\/admin-ajax.php"}};
+    /* ]]> */
+</script>
+<script type='text/javascript' src='http://zanbil.avin-tarh.ir/wp-includes/js/wp-util.min.js?ver=1466951189'></script>
+<script type='text/javascript'>
+    /* <![CDATA[ */
+    var wc_add_to_cart_variation_params = {"wc_ajax_url":"\/?wc-ajax=%%endpoint%%","i18n_no_matching_variations_text":"\u0628\u0627 \u0639\u0631\u0636 \u067e\u0648\u0632\u0634\u060c \u0647\u06cc\u0686 \u0645\u062d\u0635\u0648\u0644\u06cc \u0645\u0637\u0627\u0628\u0642 \u0627\u0646\u062a\u062e\u0627\u0628 \u0634\u0645\u0627 \u06cc\u0627\u0641\u062a \u0646\u0634\u062f. \u062e\u0648\u0627\u0647\u0634\u0645\u0646\u062f\u06cc\u0645\u064b \u062a\u0631\u06a9\u06cc\u0628 \u062f\u06cc\u06af\u0631\u06cc \u0631\u0627 \u0627\u0646\u062a\u062e\u0627\u0628 \u06a9\u0646\u06cc\u062f.","i18n_make_a_selection_text":"\u0642\u0628\u0644 \u0627\u0632 \u0627\u06cc\u0646 \u06a9\u0647 \u0627\u06cc\u0646 \u0645\u062d\u0635\u0648\u0644 \u0628\u0647 \u0633\u0628\u062f \u062e\u0631\u06cc\u062f \u062e\u0648\u062f \u0627\u0636\u0627\u0641\u0647 \u06a9\u0646\u06cc\u062f \u06af\u0632\u06cc\u0646\u0647 \u0647\u0627\u06cc \u0645\u062d\u0635\u0648\u0644 \u0631\u0627 \u0627\u0646\u062a\u062e\u0627\u0628 \u06a9\u0646\u06cc\u062f.","i18n_unavailable_text":"\u0628\u0627 \u0639\u0631\u0636 \u067e\u0648\u0632\u0634\u060c \u0627\u06cc\u0646 \u0645\u062d\u0635\u0648\u0644 \u062f\u0631 \u062f\u0633\u062a\u0631\u0633 \u0646\u06cc\u0633\u062a. \u062e\u0648\u0627\u0647\u0634\u0645\u0646\u062f\u06cc\u0645\u064b \u062a\u0631\u06a9\u06cc\u0628 \u062f\u06cc\u06af\u0631\u06cc \u0631\u0627 \u0627\u0646\u062a\u062e\u0627\u0628 \u06a9\u0646\u06cc\u062f."};
+    /* ]]> */
+</script>
+<script type='text/javascript' src='http://zanbil.avin-tarh.ir/wp-content/themes/zanbil/js/woocommerce/add-to-cart-variation.min.js?ver=1538987577'></script>
+<script type='text/javascript' src='http://zanbil.avin-tarh.ir/wp-content/plugins/sw-zanbil/assets/js/thf-customize-wc-ajax-search.min.js?ver=1539595844'></script>
+<script type='text/javascript' src='http://zanbil.avin-tarh.ir/wp-content/plugins/js_composer/assets/js/dist/js_composer_front.min.js?ver=1516067772'></script>
+<script type="text/javascript">(function($) {if(($(window).width() > 1199)){var sticky_navigation_offset_top = $(".yt-header-under-2").offset().top;console.log(sticky_navigation_offset_top);var sticky_navigation = function(){var scroll_top = $(window).scrollTop();console.log(scroll_top);if (scroll_top > sticky_navigation_offset_top) {$(".yt-header-under-2").addClass("sticky-menu");$(".yt-header-under-2").css({ "position": "fixed", "top":0, "left":0, "right" : 0, "z-index": 8000 });} else {$(".yt-header-under-2").removeClass("sticky-menu");$(".yt-header-under-2").css({ "position": "static" });}};sticky_navigation();$(window).scroll(function() {sticky_navigation();});}}(jQuery));</script></body>
+</html>

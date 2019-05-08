@@ -69,7 +69,6 @@ class RegisterController extends Controller
             'email' => $data['email'],
             'password' => Hash::make($data['password']),
         ]);
-
         $role = Role::where('name', 'نویسنده')->first();
         $user->roles()->attach($role->id);
         return $user;

@@ -16,10 +16,11 @@
 //});
 
 Route::resource('/','Frontend\HomeController');
-
+Route::post('/register-user', 'Frontend\UserController@register')->name('user.register');
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
+
 
 Route::resource('administrator/users','Admin\AdminUserController');
 Route::resource('administrator','Admin\MainController');

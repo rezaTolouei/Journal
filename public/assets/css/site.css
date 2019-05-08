@@ -2824,6 +2824,15 @@ header {
   color: white;
   text-align: center;
 }
+.button, .header_topbar .header_slider .da-slider .da-slide .info .da-link, .header_slider .da-slider .da-slide .info .header_topbar .da-link {
+  display: inline-block;
+  background-color: #42525f;
+  border-radius: .4rem;
+  border: 1px #2d3841 solid;
+  padding: .2rem .7rem;
+  color: white;
+  text-align: center;
+}
 .header_topbar .button:nth-child(1), .header_topbar .header_slider .da-slider .da-slide .info .da-link:nth-child(1), .header_slider .da-slider .da-slide .info .header_topbar .da-link:nth-child(1) {
   margin-left: .5rem;
 }
