@@ -38,7 +38,7 @@
                         </div>
                         <div class="row" style="margin-top: 20px;">
                             <div class="col-md-6 col-xs-12 pull-right">
-                                <select name="salutation" class="form-control">
+                                <select name="contact_type" class="form-control">
                                     <option>تحصیلات</option>
                                     <option value="دکترای تخصصی">دکترای تخصصی</option>
                                     <option value="دکترای پزشکی">دکترای پزشکی</option>
